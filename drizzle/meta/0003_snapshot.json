@@ -1,6 +1,6 @@
 {
-  "id": "b8a2c628-7a43-49ad-bf93-cb6bce9a8410",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "9b59fafe-b7bd-4cb2-9142-f3f768c36e11",
+  "prevId": "42944486-1274-4aee-96b6-d80f800c11f9",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -30,7 +30,7 @@
           "name": "mobile_number",
           "type": "text",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "profile_image": {
           "name": "profile_image",
@@ -349,19 +349,19 @@
           "name": "title",
           "type": "varchar(255)",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "content": {
           "name": "content",
           "type": "text[]",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "sub_title": {
           "name": "sub_title",
           "type": "varchar(255)",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "thumbnail_image": {
           "name": "thumbnail_image",

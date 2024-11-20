@@ -24,7 +24,7 @@ export const users = pgTable("users", {
     .primaryKey(),
   full_name: varchar("full_name", { length: 256 }).notNull(),
   email: text("email").unique().notNull(),
-  mobile_number: text("mobile_number").notNull().unique(),
+  mobile_number: text("mobile_number").unique(),
   profile_image: text("profile_image"),
   date_of_birth: timestamp("date_of_birth"),
   gender: genderEnum("gender"),

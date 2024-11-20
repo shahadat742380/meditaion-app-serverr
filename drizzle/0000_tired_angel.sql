@@ -59,8 +59,8 @@ CREATE TABLE IF NOT EXISTS "tbl_meditation_sessions" (
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "tbl_quotes" (
 	"id" text PRIMARY KEY NOT NULL,
-	"content" text,
-	"author" varchar(256),
+	"content" text NOT NULL,
+	"author" varchar(256) NOT NULL,
 	"created_at" timestamp DEFAULT now() NOT NULL
 );
 --> statement-breakpoint
@@ -74,9 +74,9 @@ CREATE TABLE IF NOT EXISTS "tbl_favorite_quotes" (
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "tbl_stories" (
 	"id" text PRIMARY KEY NOT NULL,
-	"title" varchar(255),
-	"content" text[],
-	"sub_title" varchar(255),
+	"title" varchar(255) NOT NULL,
+	"content" text[] NOT NULL,
+	"sub_title" varchar(255) NOT NULL,
 	"thumbnail_image" varchar(255),
 	"created_at" timestamp DEFAULT now() NOT NULL
 );

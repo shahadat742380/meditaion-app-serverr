@@ -14,9 +14,9 @@ export const stories = pgTable("stories", {
   id: text("id")
     .$defaultFn(() => uuidv4())
     .primaryKey(),
-  title: varchar("title", { length: 255 }).notNull(),
-  content: text("content").array().notNull(),
-  sub_title: varchar("sub_title", { length: 255 }).notNull(),
+  title: varchar("title", { length: 255 }),
+  content: text("content").array(),
+  sub_title: varchar("sub_title", { length: 255 }),
   thumbnail_image: varchar("thumbnail_image", { length: 255 }),
   created_at: timestamp("created_at").defaultNow().notNull(),
 });
