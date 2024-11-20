@@ -1,0 +1,40 @@
+service: meditation-app
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: ap-south-1
+  memorySize: 256
+  stage: prod # OLD API have 'dev'
+  timeout: 30 # repository wide Lambda timeout
+  environment:
+    NODE_ENV: production
+    DATABASE_URL: postgres://01934470-90e4-798a-b7d5-87de675dad4b:867307cb-6664-4ce2-9410-a77d627d3ba4@us-west-2.db.thenile.dev:5432/meditation_app
+
+plugins:
+  - serverless-esbuild # used for compiling/packaging the Typescript code
+  - serverless-offline # used for local execution
+
+custom:
+  esbuild:
+    bundle: true
+    minify: false
+    sourcemap: true
+    target: "node20" # Node.js version must match your runtime
+    define: { "require.resolve": "undefined" }
+    platform: "node"
+    concurrency: 10
+
+functions:
+  app:
+    handler: src/index.handler
+    events:
+      - http:
+          path: /
+          method: ANY
+          cors: true
+      - http:
+          path: /{proxy+}
+          method: ANY
+          cors: true
