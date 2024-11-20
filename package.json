@@ -8,7 +8,7 @@
     "generate": "drizzle-kit generate",
     "push": "drizzle-kit push",
     "studio": "drizzle-kit studio --port 3333",
-    "migrate": "drizzle-kit generate --schema=./src/schemas/*"
+    "migrate": "drizzle-kit generate --schema=./src/db/schemas/*"
   },
   "devDependencies": {
     "@types/node": "20.14.9",
@@ -31,6 +31,7 @@
     "moment": "^2.30.1",
     "postgres": "^3.4.4",
     "twilio": "^5.2.3",
+    "uuid": "^11.0.3",
     "uuidv4": "^6.2.13",
     "zod": "^3.23.8"
   }
