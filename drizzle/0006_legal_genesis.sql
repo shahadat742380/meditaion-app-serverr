@@ -1,0 +1,1 @@
+ALTER TABLE "tbl_stories" ALTER COLUMN "sub_title" SET NOT NULL;

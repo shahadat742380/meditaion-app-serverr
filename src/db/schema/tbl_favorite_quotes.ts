@@ -1,5 +1,5 @@
-import { relations, sql } from "drizzle-orm";
-import { text, timestamp, varchar } from "drizzle-orm/pg-core";
+import { relations } from "drizzle-orm";
+import { text, timestamp } from "drizzle-orm/pg-core";
 
 // ** import third party
 import { v4 as uuidv4 } from "uuid";
@@ -27,7 +27,6 @@ export const favorite_quotes = pgTable("favorite_quotes", {
       onDelete: "cascade",
       onUpdate: "cascade",
     }),
-  added_at: timestamp("added_at").defaultNow().notNull(),
   created_at: timestamp("created_at").defaultNow().notNull(),
 });
 

@@ -2,7 +2,7 @@ export const meditationStories = [
   {
     id: 1,
     title: "The Peaceful Mind",
-    sub_title: "A Journey to Calmness",
+    subtitle: "A Journey to Calmness",
     content: [
       "Meditation is more than just sitting in silence; it is a journey to finding inner peace amidst the noise of life.",
       "To begin, find a quiet, comfortable space where you can sit undisturbed. Close your eyes and bring your awareness to your breath. Breathe deeply and slowly, paying attention to the rhythm of each inhale and exhale.",
@@ -13,7 +13,7 @@ export const meditationStories = [
   {
     id: 2,
     title: "Silent Reflection",
-    sub_title: "The Power of Stillness",
+    subtitle: "The Power of Stillness",
     content: [
       "In the fast-paced world we live in, it can be difficult to find moments of stillness. Meditation allows us to return to this state of quiet reflection, where true clarity can emerge.",
       "Each morning, take a few moments to sit in silence. Close your eyes, take a deep breath, and allow your mind to quiet. As you breathe in, feel the energy of the day beginning to settle in your body. As you breathe out, release any tension or restlessness.",
@@ -24,7 +24,7 @@ export const meditationStories = [
   {
     id: 3,
     title: "Mindful Breathing",
-    sub_title: "Connecting with the Present",
+    subtitle: "Connecting with the Present",
     content: [
       "One of the simplest forms of meditation is mindful breathing. This practice can be done anywhere and anytime, bringing you back to the present moment when life feels overwhelming.",
       "To begin, find a comfortable seated position and close your eyes. Bring your awareness to your breath. Do not try to control it, but rather observe the natural flow of air coming in and out of your body.",
@@ -35,7 +35,7 @@ export const meditationStories = [
   {
     id: 4,
     title: "Awakening the Heart",
-    sub_title: "Meditation for Love and Kindness",
+    subtitle: "Meditation for Love and Kindness",
     content: [
       "Meditation is not only a tool for inner peace but also a way to cultivate love and kindness towards others. This meditation practice focuses on opening the heart and sending compassion to yourself and the world around you.",
       "Begin by sitting comfortably and closing your eyes. Take a few deep breaths to center yourself. Now, think of someone you love or care for deeply. Visualize them in your mind, and as you breathe, send them feelings of love and warmth.",
@@ -46,7 +46,7 @@ export const meditationStories = [
   {
     id: 5,
     title: "The Inner Temple",
-    sub_title: "Finding Your Sacred Space",
+    subtitle: "Finding Your Sacred Space",
     content: [
       "In meditation, we create an inner sanctuary, a safe and peaceful space where we can find refuge from the chaos of the world. This inner temple is unique to you and can be revisited whenever you need to ground yourself.",
       "To create this space, find a quiet place where you won’t be disturbed. Close your eyes and take a few deep breaths. As you breathe, imagine yourself walking through a beautiful garden, the air fresh and calming. You approach a temple, its doors wide open, inviting you in.",
@@ -57,7 +57,7 @@ export const meditationStories = [
   {
     id: 6,
     title: "Awareness and Clarity",
-    sub_title: "Clearing the Mental Fog",
+    subtitle: "Clearing the Mental Fog",
     content: [
       "Meditation is a powerful tool for clearing the mental fog that often clouds our judgment and decision-making. When the mind is overwhelmed with thoughts and distractions, it can be difficult to see clearly. Meditation helps bring focus and clarity.",
       "Begin by finding a quiet space and closing your eyes. Focus on your breath, allowing it to be slow and steady. As you breathe in, imagine that you are inhaling clarity, and as you breathe out, you are releasing confusion and mental clutter.",
@@ -68,7 +68,7 @@ export const meditationStories = [
   {
     id: 7,
     title: "Chasing the Flow",
-    sub_title: "Going Beyond Thoughts",
+    subtitle: "Going Beyond Thoughts",
     content: [
       "One of the most transformative aspects of meditation is the ability to move beyond the constant chatter of the mind. In this practice, you learn to observe your thoughts without becoming attached to them.",
       "Sit quietly and bring your attention to your breath. As you breathe, allow your thoughts to come and go. Do not try to control them or push them away. Instead, observe them with curiosity and let them pass like clouds in the sky.",
@@ -78,7 +78,7 @@ export const meditationStories = [
   {
     id: 8,
     title: "Grounding with Nature",
-    sub_title: "Connecting to Earth and Sky",
+    subtitle: "Connecting to Earth and Sky",
     content: [
       "Nature has a profound ability to ground us and connect us to something greater than ourselves. In this meditation practice, you use the natural world to reconnect to the earth and the sky.",
       "Find a quiet spot in nature, whether it's a park, a beach, or a forest. Close your eyes and take a few deep breaths. Feel the earth beneath you, supporting you, and the sky above, expansive and free.",
@@ -89,7 +89,7 @@ export const meditationStories = [
   {
     id: 9,
     title: "Releasing Tension",
-    sub_title: "Letting Go of Stress",
+    subtitle: "Letting Go of Stress",
     content: [
       "Meditation is a powerful way to release stored tension in the body. Often, we carry stress and tension in our muscles without realizing it. Through mindful meditation, you can release this tension and bring relaxation to every part of your body.",
       "Find a quiet, comfortable space to sit or lie down. Close your eyes and take a few deep breaths. As you breathe, bring your awareness to different areas of your body, starting with your feet and working your way up to your head.",
@@ -100,7 +100,7 @@ export const meditationStories = [
   {
     id: 10,
     title: "The Art of Letting Go",
-    sub_title: "Releasing Attachment",
+    subtitle: "Releasing Attachment",
     content: [
       "Meditation teaches us the art of letting go. We often cling to people, outcomes, or possessions in our lives, believing that they define our happiness.",
       "In meditation, we practice observing these attachments without judgment. Sit quietly, focus on your breath, and gently notice what you are holding onto. Is it a belief, a person, or a fear?",
@@ -110,7 +110,7 @@ export const meditationStories = [
   {
     id: 11,
     title: "The Healing Breath",
-    sub_title: "A Path to Inner Restoration",
+    subtitle: "A Path to Inner Restoration",
     content: [
       "Breath is the foundation of life, and in meditation, it becomes a powerful tool for healing. When we are stressed, our breath becomes shallow and uneven. But when we consciously focus on our breath, we restore balance and calm.",
       "Find a quiet space, sit comfortably, and close your eyes. Begin by breathing slowly and deeply, allowing each inhale to fill your lungs completely. As you exhale, imagine releasing any tension or discomfort in your body.",
@@ -120,7 +120,7 @@ export const meditationStories = [
   {
     id: 12,
     title: "The Power of Silence",
-    sub_title: "Finding Peace Within",
+    subtitle: "Finding Peace Within",
     content: [
       "In a world filled with noise, silence can seem rare and precious. Meditation invites us to embrace this silence and discover the peace that lies within.",
       "To begin, sit in a quiet space and close your eyes. Let go of any expectations or goals for this session. Simply be present with yourself.",
@@ -130,7 +130,7 @@ export const meditationStories = [
   {
     id: 13,
     title: "The Mindful Pause",
-    sub_title: "The Power of Pausing",
+    subtitle: "The Power of Pausing",
     content: [
       "Meditation teaches us the power of the pause. In the hustle and bustle of daily life, we often rush from one task to the next, never taking a moment to stop and check in with ourselves.",
       "Start by finding a quiet space. Sit comfortably, close your eyes, and take a deep breath. Inhale slowly, filling your lungs completely. Hold the breath for a moment, and then exhale slowly, releasing any tension.",
@@ -140,7 +140,7 @@ export const meditationStories = [
   {
     id: 14,
     title: "The Mirror of the Mind",
-    sub_title: "Reflecting on Your Inner World",
+    subtitle: "Reflecting on Your Inner World",
     content: [
       "Meditation is like gazing into a mirror, reflecting back the true nature of our mind. When we sit in stillness, we become aware of the thoughts, emotions, and patterns that shape our daily experience.",
       "Begin by sitting comfortably and closing your eyes. Take a few deep breaths, allowing your body to relax. As your mind settles, begin to observe your thoughts without attachment.",
@@ -150,7 +150,7 @@ export const meditationStories = [
   {
     id: 15,
     title: "Awakening to the Present",
-    sub_title: "Living Fully in the Now",
+    subtitle: "Living Fully in the Now",
     content: [
       "We often spend our lives either dwelling on the past or worrying about the future. Meditation teaches us to come back to the present, to fully experience the now.",
       "Sit in a comfortable position and close your eyes. Take a deep breath and focus your attention on the present moment. Feel the sensation of your breath moving in and out of your body.",
@@ -160,7 +160,7 @@ export const meditationStories = [
   {
     id: 16,
     title: "The Path of Compassion",
-    sub_title: "Opening Your Heart to Others",
+    subtitle: "Opening Your Heart to Others",
     content: [
       "Meditation has the power to open our hearts and cultivate compassion for ourselves and others. In this practice, we learn to extend love and kindness, even to those we may not understand.",
       "Find a comfortable seated position and close your eyes. Take a deep breath, and as you inhale, imagine yourself filling your heart with love and compassion. As you exhale, send this love to someone you care about.",
@@ -170,7 +170,7 @@ export const meditationStories = [
   {
     id: 17,
     title: "A Journey Inward",
-    sub_title: "Exploring Your Inner Landscape",
+    subtitle: "Exploring Your Inner Landscape",
     content: [
       "Meditation is an inward journey, where we explore the depths of our own consciousness. It is a path that leads to self-discovery, wisdom, and peace.",
       "Sit in a quiet, comfortable place and close your eyes. Take a few deep breaths, letting your body relax with each exhale. As your body settles, begin to focus on the inner world within you.",
@@ -180,7 +180,7 @@ export const meditationStories = [
   {
     id: 18,
     title: "The Gift of Gratitude",
-    sub_title: "Finding Joy in the Present",
+    subtitle: "Finding Joy in the Present",
     content: [
       "Gratitude is a powerful practice that can shift our mindset and bring greater joy into our lives. Meditation allows us to cultivate gratitude by focusing on the blessings we have.",
       "Sit comfortably, close your eyes, and take a deep breath. Begin by bringing to mind something or someone you are grateful for. It could be a person, an experience, or even the simple gift of being alive.",
@@ -190,7 +190,7 @@ export const meditationStories = [
   {
     id: 19,
     title: "The Stillness Within",
-    sub_title: "Discovering Inner Peace",
+    subtitle: "Discovering Inner Peace",
     content: [
       "Meditation is a practice of stillness, where we find peace not in the world around us, but within ourselves. It is in this stillness that we reconnect with our true essence.",
       "Sit in a quiet space and close your eyes. Take a few deep breaths, letting your body relax with each exhale. As you breathe, feel the stillness within you, a deep sense of calm that transcends any external circumstances.",
@@ -200,7 +200,7 @@ export const meditationStories = [
   {
     id: 20,
     title: "The River of Thoughts",
-    sub_title: "Letting Thoughts Flow",
+    subtitle: "Letting Thoughts Flow",
     content: [
       "In meditation, we learn to observe our thoughts without becoming entangled in them. Our thoughts are like a river, constantly flowing and changing. The key is not to stop them, but to watch them pass by.",
       "Sit comfortably and close your eyes. Take a few deep breaths and bring your awareness to your thoughts. Imagine them as leaves floating down a river, drifting past you without any need for attachment.",
@@ -211,7 +211,7 @@ export const meditationStories = [
   {
     id: 21,
     title: "The Light Within",
-    sub_title: "Embracing Your Inner Radiance",
+    subtitle: "Embracing Your Inner Radiance",
     content: [
       "Meditation allows us to connect with the light that resides within us all. This inner radiance is our true essence, a source of peace, joy, and wisdom. It is the guiding force that helps us navigate through life's challenges, always reminding us of our innate power and potential.",
       "To begin, sit comfortably, close your eyes, and take a few deep breaths. As you inhale, imagine drawing in light from the universe, filling your body with warmth and positivity. Let this light spread throughout your being, awakening every cell to its radiance.",
@@ -221,7 +221,7 @@ export const meditationStories = [
   {
     id: 22,
     title: "The Garden of the Mind",
-    sub_title: "Nurturing Positive Thoughts",
+    subtitle: "Nurturing Positive Thoughts",
     content: [
       "Our minds are like gardens, and our thoughts are the seeds. Meditation teaches us to tend to our thoughts, planting seeds of peace, love, and gratitude. The garden of the mind flourishes when we consciously choose to nurture the positive aspects of our consciousness.",
       "Find a quiet space, sit comfortably, and close your eyes. Begin by focusing on your breath. As you breathe, imagine your thoughts as seeds being planted in a fertile garden, each seed representing a positive affirmation or intention.",
@@ -231,7 +231,7 @@ export const meditationStories = [
   {
     id: 23,
     title: "The Journey of Self-Discovery",
-    sub_title: "Exploring the Depths of Your Being",
+    subtitle: "Exploring the Depths of Your Being",
     content: [
       "Meditation is a journey inward, where we explore the depths of our true nature. It is a path of self-discovery, understanding, and acceptance. In the quiet of meditation, we are invited to peel back the layers of our being, discovering the truths that lie beneath the surface of our thoughts and emotions.",
       "Sit in a quiet space and close your eyes. Begin by focusing on your breath, allowing each inhale to deepen your sense of presence. As you breathe, gently turn your attention inward, setting aside any distractions from the external world.",
@@ -241,7 +241,7 @@ export const meditationStories = [
   {
     id: 24,
     title: "The Circle of Life",
-    sub_title: "Embracing the Flow of Change",
+    subtitle: "Embracing the Flow of Change",
     content: [
       "Life is a continuous cycle of growth, change, and renewal. Meditation teaches us to embrace this flow, understanding that change is an inevitable part of the human experience. Just as the seasons change, so do the circumstances in our lives. By accepting the ebb and flow of life, we cultivate a sense of peace and surrender.",
       "Sit comfortably, close your eyes, and take a few deep breaths. As you breathe, imagine yourself surrounded by the circle of life, flowing with the changes that come your way. This circle represents the infinite flow of existence, where every beginning is followed by an ending, and each ending makes space for new beginnings.",
@@ -251,7 +251,7 @@ export const meditationStories = [
   {
     id: 25,
     title: "The Stillness of the Heart",
-    sub_title: "Finding Peace in the Center",
+    subtitle: "Finding Peace in the Center",
     content: [
       "At the core of our being, there is a stillness that remains untouched by the external world. Meditation invites us to connect with this stillness, to find peace in the center of our heart. This stillness is not a mere absence of noise, but a deep, unshakable sense of calm that resides within us.",
       "Sit comfortably, close your eyes, and focus on your breath. With each inhale, imagine breathing in peace and stillness. As you exhale, release any tension or restlessness. With each breath, you come closer to the stillness that lies at the very core of your being.",
@@ -261,7 +261,7 @@ export const meditationStories = [
   {
     id: 26,
     title: "The Dance of Breath",
-    sub_title: "Flowing with the Rhythm of Life",
+    subtitle: "Flowing with the Rhythm of Life",
     content: [
       "Our breath is a constant rhythm that flows with the pulse of life. Meditation helps us to become more attuned to this natural rhythm, finding harmony in each breath. Like a dance, our breath moves in a fluid and effortless flow, connecting us to the present moment and the greater flow of existence.",
       "Find a quiet place, sit comfortably, and close your eyes. Begin by noticing your breath. Observe the rise and fall of your chest, the flow of air in and out of your body. As you breathe, allow yourself to flow with the rhythm of your breath, like a dance.",
@@ -271,7 +271,7 @@ export const meditationStories = [
   {
     id: 27,
     title: "The Power of Presence",
-    sub_title: "Living Fully in the Now",
+    subtitle: "Living Fully in the Now",
     content: [
       "Meditation helps us cultivate the power of presence. By focusing our attention on the present moment, we connect with the richness of life that exists right here and now. The past is a memory, the future is a dream, and the present moment is where we truly live.",
       "Sit comfortably, close your eyes, and take a few deep breaths. As you breathe, bring your awareness to the present moment. Let go of any thoughts about the past or future. Feel the sensations in your body, the sounds around you, and the rhythm of your breath.",
@@ -281,7 +281,7 @@ export const meditationStories = [
   {
     id: 28,
     title: "The Ripple Effect",
-    sub_title: "Spreading Peace Through the World",
+    subtitle: "Spreading Peace Through the World",
     content: [
       "Meditation is not only a practice for personal peace, but it also has a ripple effect on the world around us. When we cultivate inner peace, we contribute to the peace of the world. Our peaceful energy extends beyond our immediate environment, creating waves of positivity and harmony.",
       "Sit comfortably and close your eyes. Begin by focusing on your breath, and as you breathe, imagine peace flowing through your body, from the tips of your toes to the top of your head. With each breath, feel this peace filling you up, expanding throughout your being.",
@@ -291,7 +291,7 @@ export const meditationStories = [
   {
     id: 29,
     title: "The Strength of Stillness",
-    sub_title: "Power in Quietude",
+    subtitle: "Power in Quietude",
     content: [
       "In a world that values action and achievement, stillness is often overlooked. But meditation reveals the profound strength that lies in quietude, a power that comes from within. True strength is not always found in movement or force, but in the ability to be still and centered amidst the chaos of life.",
       "Find a quiet space, sit comfortably, and close your eyes. Take a deep breath, and with each inhale, invite a sense of stillness into your body. As you breathe, notice how the quietness deepens within, creating a sense of calm that spreads throughout your being.",
@@ -301,7 +301,7 @@ export const meditationStories = [
   {
     id: 30,
     title: "The Breath of Compassion",
-    sub_title: "Nurturing Love for Yourself and Others",
+    subtitle: "Nurturing Love for Yourself and Others",
     content: [
       "Meditation allows us to cultivate compassion, both for ourselves and for others. Through mindfulness and awareness of our breath, we open our hearts to the suffering of the world and the joy that comes from loving-kindness. Compassion is the key to healing, and it begins with the breath.",
       "Sit comfortably, close your eyes, and take a deep breath. As you breathe, imagine breathing in love and compassion. With each inhale, feel your heart expanding with kindness and understanding. With each exhale, send this love to yourself, letting go of any judgment or negativity.",
@@ -312,7 +312,7 @@ export const meditationStories = [
   {
     id: 31,
     title: "The Wisdom of the Body",
-    sub_title: "Listening to Your Inner Teacher",
+    subtitle: "Listening to Your Inner Teacher",
     content: [
       "Our bodies are wise and hold immense knowledge. Meditation helps us to tune into the wisdom of our bodies, listening to the messages they offer us.",
       "Sit comfortably, close your eyes, and take a few deep breaths. Bring your awareness to your body. Notice any areas of tension, discomfort, or relaxation.",
@@ -322,7 +322,7 @@ export const meditationStories = [
   {
     id: 32,
     title: "The Mirror of Self-Awareness",
-    sub_title: "Reflecting on Your True Nature",
+    subtitle: "Reflecting on Your True Nature",
     content: [
       "Meditation serves as a mirror, reflecting our true nature. Through self-awareness, we begin to see ourselves as we truly are—whole, complete, and at peace.",
       "Sit comfortably and close your eyes. Begin by focusing on your breath, letting it calm your mind and body. As you breathe, bring your attention to your inner world.",
@@ -332,7 +332,7 @@ export const meditationStories = [
   {
     id: 33,
     title: "The Quiet Mind",
-    sub_title: "Finding Peace in the Silence",
+    subtitle: "Finding Peace in the Silence",
     content: [
       "A quiet mind is a peaceful mind. Meditation helps us to quiet the constant chatter of our thoughts, allowing us to experience a deep sense of inner calm.",
       "Sit comfortably, close your eyes, and focus on your breath. With each inhale, allow your thoughts to slow down. With each exhale, release any mental noise.",
@@ -342,7 +342,7 @@ export const meditationStories = [
   {
     id: 34,
     title: "The Healing Breath",
-    sub_title: "Restoring Balance and Vitality",
+    subtitle: "Restoring Balance and Vitality",
     content: [
       "Breath is not only essential for life but also for healing. Meditation helps us harness the power of our breath to restore balance and vitality to our bodies and minds.",
       "Sit comfortably, close your eyes, and take a deep breath. As you inhale, imagine drawing healing energy into your body. With each exhale, release any tension or discomfort.",
@@ -352,7 +352,7 @@ export const meditationStories = [
   {
     id: 35,
     title: "The Peaceful Warrior",
-    sub_title: "Strength Through Calmness",
+    subtitle: "Strength Through Calmness",
     content: [
       "True strength comes not from aggression, but from calmness. Meditation helps us develop the inner strength of a peaceful warrior, one who meets challenges with composure and grace.",
       "Sit comfortably, close your eyes, and take a deep breath. With each inhale, draw strength and resilience into your being. As you exhale, release any fear or tension.",
@@ -363,7 +363,7 @@ export const meditationStories = [
   {
     id: 36,
     title: "The Stillness of the Forest",
-    sub_title: "Finding Solace in Nature",
+    subtitle: "Finding Solace in Nature",
     content: [
       "The forest is a sanctuary of peace. Meditation allows us to connect with nature's stillness, offering solace and clarity.",
       "Find a quiet space, close your eyes, and take a deep breath. Imagine yourself standing in the heart of a peaceful forest, surrounded by towering trees and the soothing sounds of nature.",
@@ -373,7 +373,7 @@ export const meditationStories = [
   {
     id: 37,
     title: "The Path of Compassion",
-    sub_title: "Walking the Journey of Kindness",
+    subtitle: "Walking the Journey of Kindness",
     content: [
       "Meditation teaches us the way of compassion. It helps us to open our hearts and walk the path of kindness toward ourselves and others.",
       "Sit comfortably and close your eyes. Begin by taking a deep breath, and as you inhale, feel warmth and love filling your heart.",
@@ -383,7 +383,7 @@ export const meditationStories = [
   {
     id: 38,
     title: "The Power of Gratitude",
-    sub_title: "Transforming Life with Appreciation",
+    subtitle: "Transforming Life with Appreciation",
     content: [
       "Gratitude is a powerful force. Meditation helps us cultivate a heart full of appreciation, transforming our perspective on life.",
       "Sit in a comfortable position, close your eyes, and take a few deep breaths. As you breathe, think of something in your life for which you are grateful.",
@@ -393,7 +393,7 @@ export const meditationStories = [
   {
     id: 39,
     title: "The Wisdom of Silence",
-    sub_title: "Learning from the Quiet Moments",
+    subtitle: "Learning from the Quiet Moments",
     content: [
       "In silence, we find wisdom. Meditation teaches us to listen to the stillness within, where the answers to our deepest questions reside.",
       "Sit comfortably and close your eyes. Breathe deeply and allow yourself to enter a space of silence. Let go of any thoughts or distractions.",
@@ -404,7 +404,7 @@ export const meditationStories = [
   {
     id: 40,
     title: "The Breath of Clarity",
-    sub_title: "Clearing the Mind and Heart",
+    subtitle: "Clearing the Mind and Heart",
     content: [
       "The breath is a tool of clarity. Through meditation, we use the breath to clear the mind and heart, allowing us to see with greater insight. The rhythm of the breath is like a mirror, reflecting the state of our inner world.",
       "Find a comfortable seat, close your eyes, and take a deep breath. As you inhale, feel clarity entering your mind, washing away confusion or uncertainty. With each breath, let go of the cluttered thoughts that fog your vision.",
@@ -415,7 +415,7 @@ export const meditationStories = [
   {
     id: 41,
     title: "The Circle of Life",
-    sub_title: "Embracing the Seasons of Change",
+    subtitle: "Embracing the Seasons of Change",
     content: [
       "Life is a circle, constantly shifting and changing. Meditation helps us embrace the seasons of life, knowing that every phase brings new opportunities. Just as the seasons change, we too evolve and grow through each experience.",
       "Sit comfortably, close your eyes, and take a deep breath. As you breathe, visualize yourself in the center of a circle, surrounded by the changing seasons. See the vibrant colors of spring, the warmth of summer, the crispness of fall, and the stillness of winter.",
@@ -426,7 +426,7 @@ export const meditationStories = [
   {
     id: 42,
     title: "The Dance of Emotions",
-    sub_title: "Embracing Feelings with Mindfulness",
+    subtitle: "Embracing Feelings with Mindfulness",
     content: [
       "Emotions are like a dance, flowing in and out of our lives. Meditation teaches us to embrace our emotions with mindfulness, allowing them to flow without judgment. Instead of fighting or suppressing feelings, we learn to observe and honor them as they come.",
       "Sit comfortably, close your eyes, and take a deep breath. As you breathe, observe the emotions that arise within you. Notice the sensations in your body as emotions come and go, like waves on the shore.",
@@ -437,7 +437,7 @@ export const meditationStories = [
   {
     id: 43,
     title: "The Joy of Being",
-    sub_title: "Finding Happiness in the Present Moment",
+    subtitle: "Finding Happiness in the Present Moment",
     content: [
       "True joy comes from simply being present. Meditation helps us cultivate the joy of being, finding happiness in the now rather than seeking it outside ourselves. In the present moment, we realize that happiness is already within us, waiting to be discovered.",
       "Sit comfortably, close your eyes, and take a few deep breaths. As you breathe, feel the joy of simply being alive, present in this very moment. Feel gratitude for the simple act of breathing and existing.",
@@ -448,7 +448,7 @@ export const meditationStories = [
   {
     id: 44,
     title: "The Sacred Space Within",
-    sub_title: "Connecting with Your Inner Sanctuary",
+    subtitle: "Connecting with Your Inner Sanctuary",
     content: [
       "We all have a sacred space within us, a sanctuary where we can find peace and healing. Meditation helps us connect with this inner space, cultivating a sense of calm. This space is always available to us, no matter the chaos of the outer world.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine yourself entering a sacred space within, a place of peace and stillness. Visualize this space as a sanctuary, a place where you can rest and recharge without distraction.",
@@ -459,7 +459,7 @@ export const meditationStories = [
   {
     id: 45,
     title: "The Flow of Energy",
-    sub_title: "Harmonizing the Mind, Body, and Spirit",
+    subtitle: "Harmonizing the Mind, Body, and Spirit",
     content: [
       "Meditation helps us tune into the flow of energy that exists within and around us. By harmonizing our mind, body, and spirit, we create balance and vitality. The energy within us is constantly flowing, and through meditation, we can learn to align this energy with the natural rhythm of life.",
       "Sit comfortably and close your eyes. Begin to notice the flow of energy within your body, moving from your head to your toes. Feel the warmth, the tingling, or the gentle vibration of energy as it flows freely through you.",
@@ -471,7 +471,7 @@ export const meditationStories = [
   {
     id: 46,
     title: "The Healing Light",
-    sub_title: "Restoring Wellness Through Meditation",
+    subtitle: "Restoring Wellness Through Meditation",
     content: [
       "Light has a powerful healing quality. Meditation helps us connect with healing light, using its energy to restore balance and wellness in the body and mind.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine a healing light surrounding you, radiating warmth and positivity.",
@@ -481,7 +481,7 @@ export const meditationStories = [
   {
     id: 47,
     title: "The Art of Letting Go",
-    sub_title: "Releasing Attachments and Finding Freedom",
+    subtitle: "Releasing Attachments and Finding Freedom",
     content: [
       "Meditation teaches us the art of letting go, releasing attachments to outcomes, and finding freedom in the present moment.",
       "Sit comfortably, close your eyes, and take a few deep breaths. As you breathe, notice any attachments or worries that you are holding onto.",
@@ -491,7 +491,7 @@ export const meditationStories = [
   {
     id: 48,
     title: "The Infinite Space of the Mind",
-    sub_title: "Exploring the Boundless Nature of Consciousness",
+    subtitle: "Exploring the Boundless Nature of Consciousness",
     content: [
       "The mind is vast and infinite, a space of boundless potential. Meditation helps us explore this vastness, expanding our consciousness and awareness.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine your mind expanding outward, like an infinite sky stretching beyond the horizon.",
@@ -501,7 +501,7 @@ export const meditationStories = [
   {
     id: 49,
     title: "The Breath of Renewal",
-    sub_title: "Rejuvenating Body and Soul",
+    subtitle: "Rejuvenating Body and Soul",
     content: [
       "Every breath is an opportunity for renewal. Meditation helps us use the breath as a tool for rejuvenating our body, mind, and spirit.",
       "Sit comfortably, close your eyes, and take a deep breath. With each inhale, feel the breath filling you with new energy and vitality.",
@@ -511,7 +511,7 @@ export const meditationStories = [
   {
     id: 50,
     title: "The Journey Within",
-    sub_title: "Exploring Your Inner Landscape",
+    subtitle: "Exploring Your Inner Landscape",
     content: [
       "Meditation is a journey within, an exploration of our inner landscape. It helps us discover the beauty and wisdom that reside within our hearts and minds.",
       "Sit comfortably, close your eyes, and take a few deep breaths. As you breathe, imagine embarking on a journey into your inner world, exploring the depths of your consciousness.",
@@ -522,7 +522,7 @@ export const meditationStories = [
   {
     id: 66,
     title: "The Tree of Life",
-    sub_title: "Rooted in Strength, Reaching for Peace",
+    subtitle: "Rooted in Strength, Reaching for Peace",
     content: [
       "Like a tree, our roots run deep into the earth, offering us strength and stability. Meditation helps us connect to these roots, grounding us in peace.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your body becoming like a tree, with roots growing deep into the earth, anchoring you to the ground.",
@@ -532,7 +532,7 @@ export const meditationStories = [
   {
     id: 67,
     title: "The Infinite Sky",
-    sub_title: "Embracing Boundless Freedom",
+    subtitle: "Embracing Boundless Freedom",
     content: [
       "The sky is infinite, vast, and free. Meditation invites us to embrace this boundless freedom, allowing our thoughts to soar without limits.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself under an expansive sky, feeling the openness and freedom that comes with it.",
@@ -542,7 +542,7 @@ export const meditationStories = [
   {
     id: 68,
     title: "The Gentle Breeze",
-    sub_title: "Surrendering to Life's Flow",
+    subtitle: "Surrendering to Life's Flow",
     content: [
       "The breeze flows gently, carrying peace and calm. Meditation helps us surrender to the flow of life, letting go of control and trusting the process.",
       "Sit comfortably, close your eyes, and take a few deep breaths. Imagine a gentle breeze brushing over you, soothing and calming your body and mind.",
@@ -552,7 +552,7 @@ export const meditationStories = [
   {
     id: 69,
     title: "The Silent Lake",
-    sub_title: "Reflecting Peace Within",
+    subtitle: "Reflecting Peace Within",
     content: [
       "A calm lake reflects the beauty of the world around it. Meditation allows us to reflect inner peace, creating clarity and tranquility in our lives.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine yourself beside a silent lake, its surface perfectly still, reflecting the beauty of nature.",
@@ -563,7 +563,7 @@ export const meditationStories = [
   {
     id: 70,
     title: "The Awakening of the Heart",
-    sub_title: "Opening to Love and Joy",
+    subtitle: "Opening to Love and Joy",
     content: [
       "The heart has infinite capacity for love and joy. Meditation helps us awaken this inner well of emotion, allowing us to experience deep compassion. In the stillness of meditation, we come to understand that love is not a fleeting feeling but a state of being, a choice to open ourselves to the world around us.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine your heart opening like a blooming flower, its petals unfolding to reveal the pure light within. Feel the warmth of this light spreading through your chest, filling you with love, joy, and peace. Visualize your heart growing larger with each breath, expanding into the space around you.",
@@ -574,7 +574,7 @@ export const meditationStories = [
   {
     id: 71,
     title: "The Rising Sun",
-    sub_title: "A New Beginning",
+    subtitle: "A New Beginning",
     content: [
       "Each day brings a new beginning, a chance to start fresh. Meditation allows us to embrace each new moment, shedding the past and stepping into the present with renewed energy and openness. In every sunrise, we are reminded that every moment is a new opportunity to reset and realign with our higher purpose.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sun rising over the horizon, casting its warm light across the sky, slowly illuminating the world. Feel the warmth of the sun on your skin as you breathe in deeply, allowing its light to fill your body with energy, renewal, and optimism.",
@@ -585,7 +585,7 @@ export const meditationStories = [
   {
     id: 72,
     title: "The Sound of Silence",
-    sub_title: "Listening Beyond Words",
+    subtitle: "Listening Beyond Words",
     content: [
       "True silence speaks louder than words. Meditation teaches us to listen to the quiet within, allowing us to hear the wisdom of the soul. In the absence of noise, we find clarity, insight, and the deep understanding that transcends verbal communication. In silence, we come face-to-face with the truth of who we are.",
       "Sit comfortably, close your eyes, and take a deep breath. Listen carefully to the silence around you, letting go of any distractions. Allow the stillness to become a language of its own, one that speaks directly to your heart, guiding you toward peace and deeper understanding.",
@@ -596,7 +596,7 @@ export const meditationStories = [
   {
     id: 73,
     title: "The Circle of Life",
-    sub_title: "Embracing Change and Growth",
+    subtitle: "Embracing Change and Growth",
     content: [
       "Life is a circle, constantly evolving and changing. Meditation helps us embrace this flow, allowing us to grow and transform with grace. Just as the seasons change and nature adapts, we too must learn to flow with the natural rhythms of life, understanding that growth often comes from periods of change and renewal.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself within the circle of life, surrounded by the flowing energies of change. Feel the rhythm of the universe moving through you, connecting you with all living things. As you breathe, allow yourself to become part of this endless cycle of transformation.",
@@ -607,7 +607,7 @@ export const meditationStories = [
   {
     id: 74,
     title: "The Bridge to Stillness",
-    sub_title: "Crossing Over to Inner Peace",
+    subtitle: "Crossing Over to Inner Peace",
     content: [
       "Stillness is the bridge to inner peace. Meditation helps us cross over into a place of tranquility, leaving behind the noise of the world. In moments of stillness, we reconnect with our true nature, finding the calm center within ourselves that allows us to navigate the challenges of life with equanimity and grace.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a bridge leading you to a peaceful place of stillness and calm. As you step onto the bridge, feel the weight of the world lifting from your shoulders. With each step, you move further away from the distractions of everyday life and closer to your inner sanctuary.",
@@ -618,7 +618,7 @@ export const meditationStories = [
   {
     id: 75,
     title: "The Light Within",
-    sub_title: "Connecting to Your Inner Source",
+    subtitle: "Connecting to Your Inner Source",
     content: [
       "We all have an inner light, a source of wisdom and guidance. Meditation helps us reconnect with this light, allowing it to guide our path. This inner light is always present, waiting to shine through the clouds of doubt and fear, illuminating our way and helping us make choices aligned with our highest good.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine a light glowing within you, beginning at your heart and spreading throughout your body. With each breath, feel this light grow brighter, illuminating every cell in your body, filling you with peace, clarity, and purpose.",
@@ -630,7 +630,7 @@ export const meditationStories = [
   {
     id: 76,
     title: "The Path of Gratitude",
-    sub_title: "Cultivating Appreciation for Life",
+    subtitle: "Cultivating Appreciation for Life",
     content: [
       "Gratitude is a powerful practice that opens our hearts to joy. Meditation helps us cultivate gratitude, allowing us to appreciate the beauty of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Reflect on all the things you are grateful for, big and small.",
@@ -640,7 +640,7 @@ export const meditationStories = [
   {
     id: 77,
     title: "The Garden of Mindfulness",
-    sub_title: "Nurturing Awareness and Presence",
+    subtitle: "Nurturing Awareness and Presence",
     content: [
       "Our mind is a garden that requires care and attention. Meditation helps us cultivate mindfulness, allowing us to nurture awareness and presence.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine yourself walking through a beautiful garden, where each step brings you deeper into mindfulness.",
@@ -650,7 +650,7 @@ export const meditationStories = [
   {
     id: 78,
     title: "The Still Waters",
-    sub_title: "Calming the Storm Within",
+    subtitle: "Calming the Storm Within",
     content: [
       "Inside each of us is a deep stillness, like a calm lake beneath the surface. Meditation helps us reach this stillness, calming the storm of our thoughts.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine the surface of your mind calming, like still waters, reflecting the sky above.",
@@ -660,7 +660,7 @@ export const meditationStories = [
   {
     id: 79,
     title: "The Dance of the Mind",
-    sub_title: "Embracing the Flow of Thoughts",
+    subtitle: "Embracing the Flow of Thoughts",
     content: [
       "The mind is constantly in motion, like a dance. Meditation helps us embrace this flow, allowing us to move with our thoughts without being controlled by them.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your thoughts as dancers, gracefully moving across the stage of your mind.",
@@ -670,7 +670,7 @@ export const meditationStories = [
   {
     id: 80,
     title: "The Awakening of the Soul",
-    sub_title: "Connecting to Your True Essence",
+    subtitle: "Connecting to Your True Essence",
     content: [
       "Our soul is always awake, guiding us on our journey. Meditation helps us connect with this inner wisdom, awakening our true essence.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a light within you, representing your soul, glowing brightly and calling you home.",
@@ -681,7 +681,7 @@ export const meditationStories = [
   {
     id: 81,
     title: "The Peaceful River",
-    sub_title: "Flowing Gently Through Life",
+    subtitle: "Flowing Gently Through Life",
     content: [
       "A river flows peacefully, navigating its path effortlessly. Meditation teaches us to flow like the river, embracing the journey with calmness.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a river, flowing smoothly and gracefully through the landscape of life.",
@@ -691,7 +691,7 @@ export const meditationStories = [
   {
     id: 82,
     title: "The Moment of Now",
-    sub_title: "Living Fully in the Present",
+    subtitle: "Living Fully in the Present",
     content: [
       "The present moment is all we have. Meditation teaches us to be fully present, embracing the now with awareness and gratitude.",
       "Sit comfortably, close your eyes, and take a deep breath. Focus on the sensations in your body and the sounds around you, bringing your awareness to the present.",
@@ -701,7 +701,7 @@ export const meditationStories = [
   {
     id: 83,
     title: "The Healing Light",
-    sub_title: "Restoring Balance Within",
+    subtitle: "Restoring Balance Within",
     content: [
       "Light has the power to heal and restore. Meditation allows us to tap into this healing light, bringing balance to our body and mind.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine a warm light surrounding you, soothing and healing every part of your being.",
@@ -711,7 +711,7 @@ export const meditationStories = [
   {
     id: 84,
     title: "The Sacred Pause",
-    sub_title: "Creating Space for Peace",
+    subtitle: "Creating Space for Peace",
     content: [
       "Taking a pause in life allows us to reconnect with our inner peace. Meditation teaches us the value of the sacred pause, where we can find stillness and clarity.",
       "Sit comfortably, close your eyes, and take a deep breath. Allow yourself to pause, to create a space of quiet and stillness within.",
@@ -721,7 +721,7 @@ export const meditationStories = [
   {
     id: 85,
     title: "The Gentle Rain",
-    sub_title: "Cleansing the Mind and Body",
+    subtitle: "Cleansing the Mind and Body",
     content: [
       "Rain has a way of washing away the dust, leaving the earth refreshed and renewed. Meditation works in a similar way, cleansing the mind and body.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine gentle rain falling softly over you, cleansing your body and mind with its calming presence.",
@@ -731,7 +731,7 @@ export const meditationStories = [
   {
     id: 86,
     title: "The Silent Mountain",
-    sub_title: "Finding Strength in Stillness",
+    subtitle: "Finding Strength in Stillness",
     content: [
       "Mountains stand silent, yet they are powerful symbols of strength and resilience. Meditation helps us connect with the stillness and strength within.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a mountain, solid and unshakable, rooted deeply in the earth.",
@@ -741,7 +741,7 @@ export const meditationStories = [
   {
     id: 87,
     title: "The Radiant Sun",
-    sub_title: "Embracing Warmth and Energy",
+    subtitle: "Embracing Warmth and Energy",
     content: [
       "The sun radiates warmth and energy, bringing light to the world. Meditation allows us to tap into this radiant energy, filling us with warmth and vitality.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sun shining brightly above you, filling you with its warmth and energy.",
@@ -751,7 +751,7 @@ export const meditationStories = [
   {
     id: 88,
     title: "The Quiet Breeze",
-    sub_title: "Letting Go with Ease",
+    subtitle: "Letting Go with Ease",
     content: [
       "A gentle breeze can carry away leaves without effort. Meditation teaches us to let go with ease, releasing what no longer serves us.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a gentle breeze carrying away any worries or negative thoughts.",
@@ -761,7 +761,7 @@ export const meditationStories = [
   {
     id: 89,
     title: "The Open Sky",
-    sub_title: "Embracing Freedom and Possibility",
+    subtitle: "Embracing Freedom and Possibility",
     content: [
       "The sky is limitless, representing freedom and possibility. Meditation helps us expand our minds, embracing endless opportunities.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself under a vast, open sky, feeling the sense of boundless freedom it brings.",
@@ -771,7 +771,7 @@ export const meditationStories = [
   {
     id: 90,
     title: "The Moonlit Night",
-    sub_title: "Finding Peace in Darkness",
+    subtitle: "Finding Peace in Darkness",
     content: [
       "The moon shines brightest in the darkest of nights. Meditation helps us find peace and clarity, even in moments of uncertainty.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine a soft moonlight casting a gentle glow over you, guiding you through the darkness.",
@@ -781,7 +781,7 @@ export const meditationStories = [
   {
     id: 91,
     title: "The Open Heart",
-    sub_title: "Cultivating Compassion and Love",
+    subtitle: "Cultivating Compassion and Love",
     content: [
       "An open heart is a source of boundless compassion and love. Meditation helps us cultivate this openness, allowing us to connect with others more deeply.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your heart opening like a flower, radiating love and compassion.",
@@ -791,7 +791,7 @@ export const meditationStories = [
   {
     id: 92,
     title: "The Quiet Forest",
-    sub_title: "Nurturing Peace and Stillness",
+    subtitle: "Nurturing Peace and Stillness",
     content: [
       "A quiet forest offers a peaceful retreat, inviting us to slow down and connect with the natural world. Meditation helps us nurture this same peace within.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine yourself walking through a quiet forest, surrounded by trees and the sounds of nature.",
@@ -801,7 +801,7 @@ export const meditationStories = [
   {
     id: 93,
     title: "The Simple Breath",
-    sub_title: "Finding Peace in the Present Moment",
+    subtitle: "Finding Peace in the Present Moment",
     content: [
       "The breath is a simple, yet powerful tool for meditation. By focusing on the breath, we can bring ourselves back to the present moment and find inner peace.",
       "Sit comfortably, close your eyes, and take a deep breath. Focus on the sensation of your breath entering and leaving your body.",
@@ -811,7 +811,7 @@ export const meditationStories = [
   {
     id: 94,
     title: "The Gentle Flow",
-    sub_title: "Letting Life Flow Through You",
+    subtitle: "Letting Life Flow Through You",
     content: [
       "Life flows like a river, constantly changing and evolving. Meditation helps us embrace this flow, allowing us to move with life rather than resist it.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself flowing gently with the current of life, moving effortlessly with its rhythm.",
@@ -821,7 +821,7 @@ export const meditationStories = [
   {
     id: 95,
     title: "The Centered Self",
-    sub_title: "Finding Stability in the Chaos",
+    subtitle: "Finding Stability in the Chaos",
     content: [
       "Amidst the chaos of life, we can find stability within. Meditation helps us connect with our center, providing a solid foundation to navigate the world.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a strong, steady point within you, like the center of a wheel.",
@@ -831,7 +831,7 @@ export const meditationStories = [
   {
     id: 96,
     title: "The Expanding Universe",
-    sub_title: "Tapping into Infinite Potential",
+    subtitle: "Tapping into Infinite Potential",
     content: [
       "The universe is vast and full of infinite potential. Meditation helps us connect with this infinite source, unlocking our own potential for growth and transformation.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine yourself expanding outward, becoming one with the vastness of the universe.",
@@ -841,7 +841,7 @@ export const meditationStories = [
   {
     id: 97,
     title: "The Gentle Wave",
-    sub_title: "Embracing the Flow of Life",
+    subtitle: "Embracing the Flow of Life",
     content: [
       "Life moves in waves, sometimes calm, sometimes turbulent. Meditation teaches us to ride these waves with grace, embracing the ebb and flow of existence.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a wave, rising and falling with the natural rhythm of the ocean.",
@@ -851,7 +851,7 @@ export const meditationStories = [
   {
     id: 98,
     title: "The Inner Garden",
-    sub_title: "Cultivating Peace Within",
+    subtitle: "Cultivating Peace Within",
     content: [
       "An inner garden is a place of peace, beauty, and growth. Meditation helps us cultivate this inner garden, nurturing peace, love, and joy.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your inner garden, filled with vibrant flowers and trees, bathed in sunlight.",
@@ -861,7 +861,7 @@ export const meditationStories = [
   {
     id: 99,
     title: "The Calm Ocean",
-    sub_title: "Finding Tranquility in Stillness",
+    subtitle: "Finding Tranquility in Stillness",
     content: [
       "The ocean can be both vast and still. Meditation allows us to connect with the stillness of the ocean, finding tranquility within.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the ocean, calm and peaceful, stretching endlessly before you.",
@@ -872,7 +872,7 @@ export const meditationStories = [
   {
     id: 100,
     title: "The Inner Compass",
-    sub_title: "Guiding You to Your True North",
+    subtitle: "Guiding You to Your True North",
     content: [
       "Your inner compass is a powerful force, always guiding you toward your true purpose. It provides clarity when you feel lost, helping you navigate through life's challenges and uncertainties.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a compass within you, its needle pointing steadily toward your true north, guiding you toward your most authentic self and purpose.",
@@ -883,7 +883,7 @@ export const meditationStories = [
   {
     id: 101,
     title: "The Silent River",
-    sub_title: "Finding Calm in Motion",
+    subtitle: "Finding Calm in Motion",
     content: [
       "Like a river that flows silently through the landscape, we can learn to navigate life's ups and downs with calmness and grace. Meditation allows us to become like the river, steady and peaceful amidst the noise of the world.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a river flowing gently, the water calm, clear, and effortless, carrying you along its path without haste or effort.",
@@ -894,7 +894,7 @@ export const meditationStories = [
   {
     id: 102,
     title: "The Grounded Tree",
-    sub_title: "Rooted in Stillness",
+    subtitle: "Rooted in Stillness",
     content: [
       "A tree stands tall and steady, deeply rooted in the earth, remaining unaffected by the storms or shifting winds. Meditation helps us find our own roots, anchoring us in the present moment and providing stability amidst chaos.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a tall tree, your roots stretching deep into the earth, connecting you to the ground and offering you stability and strength.",
@@ -905,7 +905,7 @@ export const meditationStories = [
   {
     id: 103,
     title: "The Expansive Sky",
-    sub_title: "Embracing Infinite Possibilities",
+    subtitle: "Embracing Infinite Possibilities",
     content: [
       "The sky is vast and limitless, a symbol of infinite potential. In meditation, we are invited to embrace the boundless possibilities that exist within ourselves, to remove the limits we’ve placed on our growth, and open up to the infinite expanse of our potential.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as the sky, infinite and expansive, with no boundaries or limits, filled with endless opportunities and possibilities.",
@@ -916,7 +916,7 @@ export const meditationStories = [
   {
     id: 104,
     title: "The Quiet Mind",
-    sub_title: "Creating Peace Within",
+    subtitle: "Creating Peace Within",
     content: [
       "A quiet mind is like a calm lake, its surface smooth and clear, reflecting the world around it without distortion. Meditation teaches us to quiet the mind, allowing us to create space for peace and clarity to arise from within.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your mind as a tranquil lake, its surface calm and still, undisturbed by thoughts or distractions.",
@@ -927,7 +927,7 @@ export const meditationStories = [
   {
     id: 105,
     title: "The Gentle Wind",
-    sub_title: "Letting Go with Grace",
+    subtitle: "Letting Go with Grace",
     content: [
       "The wind moves gently, carrying away what it no longer needs. Meditation teaches us to let go of our burdens, just as the wind releases the leaves and dust, allowing us to feel lighter and freer.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a gentle breeze blowing through you, carrying away stress, tension, and worries, as if the wind is cleansing your soul.",
@@ -938,7 +938,7 @@ export const meditationStories = [
   {
     id: 106,
     title: "The Harmonious Melody",
-    sub_title: "Creating Balance Within",
+    subtitle: "Creating Balance Within",
     content: [
       "Life flows in harmony like a beautiful melody. Meditation teaches us to create balance and rhythm within ourselves.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a melody playing softly, each note bringing balance and peace.",
@@ -948,7 +948,7 @@ export const meditationStories = [
   {
     id: 107,
     title: "The Soothing Rain",
-    sub_title: "Cleansing and Renewal",
+    subtitle: "Cleansing and Renewal",
     content: [
       "Rain washes the earth clean, just as meditation helps cleanse the mind and body, renewing us with each moment.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine gentle rain falling, washing away the heaviness of your thoughts and emotions.",
@@ -958,7 +958,7 @@ export const meditationStories = [
   {
     id: 108,
     title: "The Still Pond",
-    sub_title: "Finding Clarity in Silence",
+    subtitle: "Finding Clarity in Silence",
     content: [
       "A still pond reflects the world clearly. Meditation allows us to find clarity by creating space for silence and stillness within.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a still pond, reflecting the beauty of the world around you.",
@@ -968,7 +968,7 @@ export const meditationStories = [
   {
     id: 109,
     title: "The Healing Garden",
-    sub_title: "Cultivating Wellness Within",
+    subtitle: "Cultivating Wellness Within",
     content: [
       "A garden nurtures plants and flowers, just as meditation nurtures our mind and body, fostering healing and growth.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a lush garden, surrounded by healing plants and flowers.",
@@ -978,7 +978,7 @@ export const meditationStories = [
   {
     id: 110,
     title: "The Silent Ocean",
-    sub_title: "Peace Beneath the Surface",
+    subtitle: "Peace Beneath the Surface",
     content: [
       "The ocean may appear turbulent on the surface, but beneath the waves, it is calm and peaceful. Meditation helps us find peace beneath our surface emotions.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the ocean, its surface calm and serene, while waves of peace move beneath.",
@@ -988,7 +988,7 @@ export const meditationStories = [
   {
     id: 111,
     title: "The Loving Heart",
-    sub_title: "Opening to Compassion",
+    subtitle: "Opening to Compassion",
     content: [
       "The heart has the capacity to love boundlessly. Meditation helps us open our hearts to compassion, both for ourselves and others.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your heart opening like a flower, radiating love and kindness.",
@@ -998,7 +998,7 @@ export const meditationStories = [
   {
     id: 112,
     title: "The Infinite Horizon",
-    sub_title: "Embracing New Beginnings",
+    subtitle: "Embracing New Beginnings",
     content: [
       "The horizon stretches infinitely, representing the endless opportunities life offers. Meditation teaches us to embrace the unknown with open arms.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself standing at the edge of the horizon, ready to step into a new chapter of your life.",
@@ -1008,7 +1008,7 @@ export const meditationStories = [
   {
     id: 113,
     title: "The Peaceful Meadow",
-    sub_title: "Finding Serenity in Simplicity",
+    subtitle: "Finding Serenity in Simplicity",
     content: [
       "A meadow offers peace through its simplicity and beauty. Meditation helps us find serenity in the simplicity of the present moment.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a peaceful meadow, surrounded by the sounds of nature.",
@@ -1018,7 +1018,7 @@ export const meditationStories = [
   {
     id: 114,
     title: "The Open Door",
-    sub_title: "Welcoming New Experiences",
+    subtitle: "Welcoming New Experiences",
     content: [
       "An open door symbolizes new possibilities and experiences. Meditation helps us open ourselves to whatever life brings.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize an open door in front of you, inviting you into new experiences.",
@@ -1028,7 +1028,7 @@ export const meditationStories = [
   {
     id: 115,
     title: "The Quiet Candle",
-    sub_title: "Lighting the Path to Inner Peace",
+    subtitle: "Lighting the Path to Inner Peace",
     content: [
       "A candle’s light provides guidance in darkness. Meditation helps us illuminate our path, bringing clarity and peace to our journey.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a candle’s gentle flame, its light guiding you through the darkness.",
@@ -1038,7 +1038,7 @@ export const meditationStories = [
   {
     id: 116,
     title: "The Sacred Circle",
-    sub_title: "Finding Wholeness Within",
+    subtitle: "Finding Wholeness Within",
     content: [
       "A circle represents wholeness and unity. Meditation helps us connect with our inner wholeness, finding peace within ourselves.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself surrounded by a sacred circle of light, representing unity and peace.",
@@ -1048,7 +1048,7 @@ export const meditationStories = [
   {
     id: 117,
     title: "The Radiant Star",
-    sub_title: "Shining Bright from Within",
+    subtitle: "Shining Bright from Within",
     content: [
       "Stars shine brightly in the darkness, symbolizing hope and inner strength. Meditation helps us connect with our own inner light.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a star, glowing brightly in the vastness of the universe.",
@@ -1058,7 +1058,7 @@ export const meditationStories = [
   {
     id: 118,
     title: "The Eternal Flame",
-    sub_title: "Embodying Enduring Strength",
+    subtitle: "Embodying Enduring Strength",
     content: [
       "An eternal flame burns without end, representing lasting strength. Meditation helps us connect with our own resilience and enduring power.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a flame burning within you, its light steady and unshaken.",
@@ -1068,7 +1068,7 @@ export const meditationStories = [
   {
     id: 119,
     title: "The Abundant Harvest",
-    sub_title: "Cultivating Gratitude and Blessings",
+    subtitle: "Cultivating Gratitude and Blessings",
     content: [
       "A harvest represents the fruits of labor and gratitude for abundance. Meditation teaches us to embrace the blessings in our lives.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a bountiful harvest before you, full of the blessings you have received.",
@@ -1078,7 +1078,7 @@ export const meditationStories = [
   {
     id: 120,
     title: "The Sacred Breath",
-    sub_title: "Honoring the Life Force Within",
+    subtitle: "Honoring the Life Force Within",
     content: [
       "Breathing is the essence of life, a sacred rhythm that sustains us. Meditation allows us to honor and connect with this life force.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize each breath as a sacred offering, nourishing your body and mind.",
@@ -1089,7 +1089,7 @@ export const meditationStories = [
   {
     id: 121,
     title: "The Ancient Wisdom",
-    sub_title: "Listening to the Quiet Voice Within",
+    subtitle: "Listening to the Quiet Voice Within",
     content: [
       "Ancient wisdom is passed down through generations, quiet yet powerful. Meditation helps us connect with the deep wisdom within ourselves.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a tranquil place, surrounded by the quiet whispers of ancient wisdom.",
@@ -1099,7 +1099,7 @@ export const meditationStories = [
   {
     id: 122,
     title: "The Vibrant Bloom",
-    sub_title: "Opening to New Beginnings",
+    subtitle: "Opening to New Beginnings",
     content: [
       "A flower blooms with vibrant colors, embracing each moment of growth. Meditation helps us open to the beauty of new beginnings.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a beautiful flower blooming within you, unfolding with grace and beauty.",
@@ -1109,7 +1109,7 @@ export const meditationStories = [
   {
     id: 123,
     title: "The Gentle Reflection",
-    sub_title: "Seeing Ourselves Clearly",
+    subtitle: "Seeing Ourselves Clearly",
     content: [
       "A calm reflection in water shows us a true image. Meditation allows us to see ourselves with clarity and honesty.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a still pond reflecting your image, clear and unclouded.",
@@ -1119,7 +1119,7 @@ export const meditationStories = [
   {
     id: 124,
     title: "The Warm Embrace",
-    sub_title: "Embodying Love and Compassion",
+    subtitle: "Embodying Love and Compassion",
     content: [
       "A warm embrace offers comfort and support. Meditation helps us embody love and compassion, extending it to ourselves and others.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself being wrapped in a warm embrace, filled with love and compassion.",
@@ -1129,7 +1129,7 @@ export const meditationStories = [
   {
     id: 125,
     title: "The Peaceful Rhythm",
-    sub_title: "Flowing with Life's Natural Beat",
+    subtitle: "Flowing with Life's Natural Beat",
     content: [
       "Life has a natural rhythm, like a heartbeat. Meditation helps us tune into this peaceful rhythm, allowing us to flow effortlessly with life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your breath aligning with the rhythm of the universe, steady and calm.",
@@ -1139,7 +1139,7 @@ export const meditationStories = [
   {
     id: 126,
     title: "The Clear Sky",
-    sub_title: "Releasing Mental Clutter",
+    subtitle: "Releasing Mental Clutter",
     content: [
       "A clear sky is vast and open, free from clouds and distractions. Meditation helps us release mental clutter, creating space for clarity.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sky above you clearing, the clouds dissipating, leaving behind pure clarity.",
@@ -1149,7 +1149,7 @@ export const meditationStories = [
   {
     id: 127,
     title: "The Gentle Tide",
-    sub_title: "Riding the Waves of Emotion",
+    subtitle: "Riding the Waves of Emotion",
     content: [
       "Emotions come like tides, rising and falling. Meditation teaches us to ride the waves of emotion with calm and acceptance.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself standing by the ocean, the tides rising and falling gently.",
@@ -1159,7 +1159,7 @@ export const meditationStories = [
   {
     id: 128,
     title: "The Open Heart",
-    sub_title: "Embracing Love Without Fear",
+    subtitle: "Embracing Love Without Fear",
     content: [
       "An open heart welcomes love and connection without fear. Meditation helps us open our hearts, embracing love fully.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize your heart opening like a flower, embracing love and connection.",
@@ -1169,7 +1169,7 @@ export const meditationStories = [
   {
     id: 129,
     title: "The Resting Cloud",
-    sub_title: "Finding Peace in Stillness",
+    subtitle: "Finding Peace in Stillness",
     content: [
       "Clouds float gently in the sky, resting without effort. Meditation helps us find peace in stillness, letting go of the need to constantly strive.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a cloud, resting peacefully in the sky.",
@@ -1179,7 +1179,7 @@ export const meditationStories = [
   {
     id: 130,
     title: "The Soaring Eagle",
-    sub_title: "Rising Above Challenges",
+    subtitle: "Rising Above Challenges",
     content: [
       "An eagle soars high above the challenges of the earth. Meditation teaches us to rise above our challenges, gaining perspective and strength.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as an eagle, soaring high above the mountains.",
@@ -1189,7 +1189,7 @@ export const meditationStories = [
   {
     id: 131,
     title: "The Silent Cave",
-    sub_title: "Embracing Inner Silence",
+    subtitle: "Embracing Inner Silence",
     content: [
       "A cave offers solitude and silence, providing space for reflection. Meditation helps us embrace the silence within, finding peace in stillness.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a quiet cave, surrounded by the stillness of nature.",
@@ -1199,7 +1199,7 @@ export const meditationStories = [
   {
     id: 132,
     title: "The Flowing Stream",
-    sub_title: "Letting Go of Resistance",
+    subtitle: "Letting Go of Resistance",
     content: [
       "A stream flows effortlessly around obstacles, teaching us to let go of resistance and flow with life. Meditation helps us embrace the flow of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a stream, flowing around rocks and obstacles with ease.",
@@ -1209,7 +1209,7 @@ export const meditationStories = [
   {
     id: 133,
     title: "The Radiant Sun",
-    sub_title: "Embodying Warmth and Light",
+    subtitle: "Embodying Warmth and Light",
     content: [
       "The sun radiates warmth and light, offering energy to all. Meditation helps us embody this light, radiating warmth and positivity.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as the sun, radiating light and warmth to the world.",
@@ -1219,7 +1219,7 @@ export const meditationStories = [
   {
     id: 134,
     title: "The Sacred Mountain",
-    sub_title: "Grounded in Strength and Stability",
+    subtitle: "Grounded in Strength and Stability",
     content: [
       "A mountain stands strong and steady, unaffected by the storms. Meditation helps us find strength and stability, even in challenging times.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a mountain, rooted deeply in the earth, standing strong and unshaken.",
@@ -1229,7 +1229,7 @@ export const meditationStories = [
   {
     id: 135,
     title: "The Soft Feather",
-    sub_title: "Finding Lightness in the Moment",
+    subtitle: "Finding Lightness in the Moment",
     content: [
       "A feather floats gently on the wind, light and free. Meditation helps us find lightness, letting go of the heaviness we carry.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a soft feather floating in the air, light and free.",
@@ -1239,7 +1239,7 @@ export const meditationStories = [
   {
     id: 136,
     title: "The Endless Horizon",
-    sub_title: "Embracing Boundless Possibilities",
+    subtitle: "Embracing Boundless Possibilities",
     content: [
       "The horizon stretches endlessly, representing limitless opportunities. Meditation helps us open ourselves to the boundless possibilities of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize an endless horizon before you, full of opportunities and potential.",
@@ -1249,7 +1249,7 @@ export const meditationStories = [
   {
     id: 137,
     title: "The Gentle Lantern",
-    sub_title: "Guiding the Way with Soft Light",
+    subtitle: "Guiding the Way with Soft Light",
     content: [
       "A lantern offers gentle light, guiding the way through the darkness. Meditation helps us find our own inner light to guide us.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a lantern glowing softly, lighting the path before you.",
@@ -1260,7 +1260,7 @@ export const meditationStories = [
   {
     id: 138,
     title: "The Quiet Garden",
-    sub_title: "Nurturing Inner Peace",
+    subtitle: "Nurturing Inner Peace",
     content: [
       "A garden thrives with care and patience, much like our inner peace. Meditation helps us cultivate this tranquility, nurturing ourselves with love and attention.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a peaceful garden, surrounded by flowers, trees, and the sounds of nature.",
@@ -1270,7 +1270,7 @@ export const meditationStories = [
   {
     id: 139,
     title: "The Ancient Tree",
-    sub_title: "Embodying Wisdom and Resilience",
+    subtitle: "Embodying Wisdom and Resilience",
     content: [
       "An ancient tree stands tall, its roots deep in the earth, its branches reaching for the sky. Meditation helps us connect with our own inner wisdom and resilience.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as an ancient tree, rooted firmly in the earth, with branches stretching high.",
@@ -1280,7 +1280,7 @@ export const meditationStories = [
   {
     id: 140,
     title: "The Clear Waters",
-    sub_title: "Embracing Emotional Clarity",
+    subtitle: "Embracing Emotional Clarity",
     content: [
       "Clear water symbolizes emotional clarity and purity. Meditation helps us release emotional baggage, bringing clarity to our hearts and minds.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself standing by a serene, clear lake, the water smooth and undisturbed.",
@@ -1290,7 +1290,7 @@ export const meditationStories = [
   {
     id: 141,
     title: "The Gentle Breeze",
-    sub_title: "Letting Go of Control",
+    subtitle: "Letting Go of Control",
     content: [
       "A gentle breeze flows effortlessly, moving without resistance. Meditation teaches us to let go of control and trust in the flow of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a soft breeze flowing through the trees, carrying with it a sense of freedom.",
@@ -1300,7 +1300,7 @@ export const meditationStories = [
   {
     id: 142,
     title: "The Healing Light",
-    sub_title: "Restoring Balance and Vitality",
+    subtitle: "Restoring Balance and Vitality",
     content: [
       "Light has the power to heal and restore. Meditation helps us connect with healing energy, restoring balance and vitality within us.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a healing light enveloping you, filling your body with energy and vitality.",
@@ -1310,7 +1310,7 @@ export const meditationStories = [
   {
     id: 143,
     title: "The Sacred Sound",
-    sub_title: "Tuning Into the Vibrations of the Universe",
+    subtitle: "Tuning Into the Vibrations of the Universe",
     content: [
       "Sound is a powerful force that connects us to the universe. Meditation helps us tune into these sacred vibrations, aligning our energy with the cosmos.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sounds of the universe around you, a symphony of peaceful vibrations.",
@@ -1320,7 +1320,7 @@ export const meditationStories = [
   {
     id: 144,
     title: "The Golden Path",
-    sub_title: "Walking the Journey with Purpose",
+    subtitle: "Walking the Journey with Purpose",
     content: [
       "A golden path leads us toward our true purpose. Meditation helps us find our way, walking with clarity and intention.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself walking along a golden path, the way ahead clear and inviting.",
@@ -1330,7 +1330,7 @@ export const meditationStories = [
   {
     id: 145,
     title: "The Infinite Spiral",
-    sub_title: "Embracing Growth and Evolution",
+    subtitle: "Embracing Growth and Evolution",
     content: [
       "The spiral symbolizes infinite growth and evolution. Meditation helps us embrace our journey of continuous transformation.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize an infinite spiral, growing outward, symbolizing your ongoing evolution.",
@@ -1340,7 +1340,7 @@ export const meditationStories = [
   {
     id: 146,
     title: "The Radiant Moon",
-    sub_title: "Embodying Calm and Reflection",
+    subtitle: "Embodying Calm and Reflection",
     content: [
       "The moon reflects light in the stillness of the night. Meditation helps us embrace the calm and reflective qualities of the moon, finding peace within.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as the moon, glowing softly and reflecting light in the night sky.",
@@ -1350,7 +1350,7 @@ export const meditationStories = [
   {
     id: 147,
     title: "The Boundless Ocean",
-    sub_title: "Embracing Infinite Possibilities",
+    subtitle: "Embracing Infinite Possibilities",
     content: [
       "The ocean is vast and limitless, representing infinite possibilities. Meditation helps us open to the boundless opportunities that life offers.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself by the edge of an expansive ocean, its waters stretching endlessly.",
@@ -1360,7 +1360,7 @@ export const meditationStories = [
   {
     id: 148,
     title: "The Timeless Moment",
-    sub_title: "Finding Presence in the Now",
+    subtitle: "Finding Presence in the Now",
     content: [
       "Time is an illusion; the only true moment is the present. Meditation helps us embrace the timelessness of the present moment, fully immersed in now.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a timeless space, where the past and future are irrelevant, and only the present matters.",
@@ -1370,7 +1370,7 @@ export const meditationStories = [
   {
     id: 149,
     title: "The Flowing River",
-    sub_title: "Surrendering to Life's Current",
+    subtitle: "Surrendering to Life's Current",
     content: [
       "A river flows with grace, surrendering to its natural current. Meditation helps us surrender to life's flow, trusting in the process.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a river, flowing effortlessly around obstacles and through open spaces.",
@@ -1380,7 +1380,7 @@ export const meditationStories = [
   {
     id: 150,
     title: "The Shining Star",
-    sub_title: "Embodying Hope and Guidance",
+    subtitle: "Embodying Hope and Guidance",
     content: [
       "Stars shine brightly in the night, guiding us with their light. Meditation helps us embody hope and guidance, shining our own light into the world.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a star, shining brightly in the night sky, a beacon of hope.",
@@ -1391,7 +1391,7 @@ export const meditationStories = [
   {
     id: 151,
     title: "The Peaceful Lake",
-    sub_title: "Reflecting Calm and Clarity",
+    subtitle: "Reflecting Calm and Clarity",
     content: [
       "A peaceful lake mirrors the sky, representing clarity and stillness. Meditation allows us to find the calm within and reflect the clarity of our true self.",
       "Sit comfortably, close your eyes, and take a deep breath. Imagine yourself at the edge of a serene lake, its surface calm and undisturbed.",
@@ -1401,7 +1401,7 @@ export const meditationStories = [
   {
     id: 152,
     title: "The Infinite Sky",
-    sub_title: "Embracing Freedom and Expansion",
+    subtitle: "Embracing Freedom and Expansion",
     content: [
       "The sky stretches infinitely above, symbolizing boundless freedom. Meditation helps us break free from limiting thoughts and embrace infinite possibilities.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself gazing at the vast sky, feeling the expansiveness all around you.",
@@ -1411,7 +1411,7 @@ export const meditationStories = [
   {
     id: 153,
     title: "The Silent Mountain",
-    sub_title: "Finding Inner Strength and Resilience",
+    subtitle: "Finding Inner Strength and Resilience",
     content: [
       "A mountain stands strong and silent, embodying unshakable strength. Meditation helps us connect with our inner resilience and steady power.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself as a mountain, tall and unyielding, standing strong in the face of challenges.",
@@ -1421,7 +1421,7 @@ export const meditationStories = [
   {
     id: 154,
     title: "The Quiet Stream",
-    sub_title: "Letting Go of Stress and Tension",
+    subtitle: "Letting Go of Stress and Tension",
     content: [
       "A quiet stream flows gently, representing the release of tension and stress. Meditation helps us let go of accumulated pressure and find peace.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a stream flowing peacefully, its waters soothing and calm.",
@@ -1431,7 +1431,7 @@ export const meditationStories = [
   {
     id: 155,
     title: "The Radiant Sunrise",
-    sub_title: "Embodying New Beginnings and Hope",
+    subtitle: "Embodying New Beginnings and Hope",
     content: [
       "The sunrise marks a new day, full of promise and hope. Meditation helps us embrace new beginnings and the light of possibility.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the first light of dawn breaking over the horizon, filling the sky with warmth and color.",
@@ -1441,7 +1441,7 @@ export const meditationStories = [
   {
     id: 156,
     title: "The Still Ocean",
-    sub_title: "Finding Peace in the Depths",
+    subtitle: "Finding Peace in the Depths",
     content: [
       "The ocean is vast and deep, symbolizing the depths of inner peace. Meditation helps us dive deep within ourselves to uncover tranquility.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself floating in the stillness of the ocean, surrounded by the peaceful waves.",
@@ -1451,7 +1451,7 @@ export const meditationStories = [
   {
     id: 157,
     title: "The Gentle Rain",
-    sub_title: "Cleansing the Mind and Body",
+    subtitle: "Cleansing the Mind and Body",
     content: [
       "Gentle rain nurtures the earth, symbolizing cleansing and renewal. Meditation helps us release negativity and bring fresh energy into our lives.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the gentle rain falling softly around you, washing away tension and stress.",
@@ -1461,7 +1461,7 @@ export const meditationStories = [
   {
     id: 158,
     title: "The Sacred Fire",
-    sub_title: "Transforming and Purifying Energy",
+    subtitle: "Transforming and Purifying Energy",
     content: [
       "Fire symbolizes transformation and purification. Meditation helps us burn away the old and make space for new growth and energy.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a sacred fire burning brightly, its flames purifying and transforming everything they touch.",
@@ -1471,7 +1471,7 @@ export const meditationStories = [
   {
     id: 159,
     title: "The Tranquil Path",
-    sub_title: "Walking with Mindfulness",
+    subtitle: "Walking with Mindfulness",
     content: [
       "A tranquil path invites us to walk mindfully, step by step, with awareness and presence. Meditation helps us embrace the journey with focus and clarity.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a peaceful path stretching ahead, inviting you to walk with mindfulness.",
@@ -1481,7 +1481,7 @@ export const meditationStories = [
   {
     id: 160,
     title: "The Deep Forest",
-    sub_title: "Connecting with Nature's Wisdom",
+    subtitle: "Connecting with Nature's Wisdom",
     content: [
       "The forest is a place of wisdom and connection. Meditation helps us connect with the deep wisdom that nature offers, grounding us in its energy.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself walking through a dense, ancient forest, filled with the sounds of nature.",
@@ -1491,7 +1491,7 @@ export const meditationStories = [
   {
     id: 161,
     title: "The Crystal Cave",
-    sub_title: "Embodying Clarity and Purity",
+    subtitle: "Embodying Clarity and Purity",
     content: [
       "A crystal cave sparkles with light and purity, representing clarity and insight. Meditation helps us tap into the purity of our mind and heart.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a crystal cave, the walls shimmering with light and clarity.",
@@ -1501,7 +1501,7 @@ export const meditationStories = [
   {
     id: 162,
     title: "The Flowing River of Life",
-    sub_title: "Embracing Change and Impermanence",
+    subtitle: "Embracing Change and Impermanence",
     content: [
       "The river flows, ever-changing, symbolizing life's constant flow. Meditation helps us embrace change and the impermanent nature of existence.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself as a river, its waters flowing effortlessly, carrying you with them.",
@@ -1511,7 +1511,7 @@ export const meditationStories = [
   {
     id: 163,
     title: "The Silent Desert",
-    sub_title: "Finding Peace in Solitude",
+    subtitle: "Finding Peace in Solitude",
     content: [
       "The desert is vast and silent, inviting us to find peace in solitude. Meditation helps us embrace stillness and connect with our inner selves.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in the quiet desert, the vast expanse surrounding you in perfect stillness.",
@@ -1521,7 +1521,7 @@ export const meditationStories = [
   {
     id: 164,
     title: "The Timeless River",
-    sub_title: "Embracing the Eternal Flow",
+    subtitle: "Embracing the Eternal Flow",
     content: [
       "The river flows through time, carrying the essence of eternity. Meditation helps us connect with the timeless flow of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself sitting beside a river, its waters flowing endlessly into the horizon.",
@@ -1531,7 +1531,7 @@ export const meditationStories = [
   {
     id: 165,
     title: "The Golden Temple",
-    sub_title: "Accessing Sacred Wisdom",
+    subtitle: "Accessing Sacred Wisdom",
     content: [
       "A golden temple stands as a beacon of sacred wisdom and enlightenment. Meditation helps us access the deep wisdom within ourselves.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a golden temple before you, its doors open, inviting you to enter.",
@@ -1541,7 +1541,7 @@ export const meditationStories = [
   {
     id: 166,
     title: "The Peaceful Meadow",
-    sub_title: "Finding Stillness in Nature",
+    subtitle: "Finding Stillness in Nature",
     content: [
       "The meadow is a peaceful place where nature blooms in harmony. Meditation helps us find stillness and peace within the natural world.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself lying in a peaceful meadow, surrounded by vibrant flowers and green grass.",
@@ -1551,7 +1551,7 @@ export const meditationStories = [
   {
     id: 167,
     title: "The Tranquil Garden",
-    sub_title: "Nurturing Your Inner Peace",
+    subtitle: "Nurturing Your Inner Peace",
     content: [
       "The garden is a place of beauty and tranquility, offering a space to nurture inner peace. Meditation helps us tend to the garden of our mind.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a tranquil garden, surrounded by blooming flowers and gentle breezes.",
@@ -1561,7 +1561,7 @@ export const meditationStories = [
   {
     id: 168,
     title: "The Gentle Breeze",
-    sub_title: "Flowing with Ease and Grace",
+    subtitle: "Flowing with Ease and Grace",
     content: [
       "A gentle breeze flows effortlessly, symbolizing ease and grace. Meditation helps us flow with life's challenges without resistance.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture a gentle breeze caressing your skin, moving with ease and grace.",
@@ -1571,7 +1571,7 @@ export const meditationStories = [
   {
     id: 169,
     title: "The Eternal Light",
-    sub_title: "Connecting with the Divine Source",
+    subtitle: "Connecting with the Divine Source",
     content: [
       "Light is eternal, symbolizing the connection with the divine source. Meditation helps us tap into this infinite light within us.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a radiant light shining from within, illuminating your entire being.",
@@ -1581,7 +1581,7 @@ export const meditationStories = [
   {
     id: 170,
     title: "The Sacred Mountain Path",
-    sub_title: "Walking Towards Enlightenment",
+    subtitle: "Walking Towards Enlightenment",
     content: [
       "The mountain path is sacred, leading us on a journey of enlightenment. Meditation helps us walk the path towards higher consciousness.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself walking on a sacred mountain path, the peak of enlightenment in the distance.",
@@ -1592,7 +1592,7 @@ export const meditationStories = [
   {
     id: 171,
     title: "The Gentle Moon",
-    sub_title: "Embracing Calm and Reflection",
+    subtitle: "Embracing Calm and Reflection",
     content: [
       "The moon shines gently, casting a soft glow on the world. Meditation helps us embrace calm and reflect on our inner light.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the moon rising in the night sky, its light calm and peaceful.",
@@ -1602,7 +1602,7 @@ export const meditationStories = [
   {
     id: 172,
     title: "The Healing Garden",
-    sub_title: "Restoring Balance and Peace",
+    subtitle: "Restoring Balance and Peace",
     content: [
       "A garden full of vibrant flowers represents healing and restoration. Meditation helps us reconnect with nature and restore our inner balance.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself in a lush, vibrant garden filled with healing plants and flowers.",
@@ -1612,7 +1612,7 @@ export const meditationStories = [
   {
     id: 173,
     title: "The Golden Light",
-    sub_title: "Illuminating Your True Path",
+    subtitle: "Illuminating Your True Path",
     content: [
       "Golden light represents clarity and guidance. Meditation helps us connect to our inner wisdom and illuminate our true path.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize golden light surrounding you, casting clarity on your life's journey.",
@@ -1622,7 +1622,7 @@ export const meditationStories = [
   {
     id: 174,
     title: "The Majestic Tree",
-    sub_title: "Rooted in Strength and Stability",
+    subtitle: "Rooted in Strength and Stability",
     content: [
       "A tree stands tall and strong, representing stability and rootedness. Meditation helps us connect with our own inner strength and grounding.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a majestic tree, deeply rooted in the earth, stretching toward the sky.",
@@ -1632,7 +1632,7 @@ export const meditationStories = [
   {
     id: 175,
     title: "The Clear Sky",
-    sub_title: "Expanding Your Mind and Perspective",
+    subtitle: "Expanding Your Mind and Perspective",
     content: [
       "A clear sky represents freedom and expansive thought. Meditation helps us expand our mind and see the world with greater clarity and openness.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself beneath a vast, cloudless sky, feeling the sense of limitless freedom.",
@@ -1642,7 +1642,7 @@ export const meditationStories = [
   {
     id: 176,
     title: "The Still Pond",
-    sub_title: "Finding Reflection and Inner Peace",
+    subtitle: "Finding Reflection and Inner Peace",
     content: [
       "A still pond reflects the world in perfect harmony. Meditation helps us find inner peace and clarity by calming the mind.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a clear pond, its surface undisturbed, reflecting the surrounding beauty.",
@@ -1652,7 +1652,7 @@ export const meditationStories = [
   {
     id: 177,
     title: "The Radiant Star",
-    sub_title: "Shining with Inner Light",
+    subtitle: "Shining with Inner Light",
     content: [
       "A radiant star represents the inner light that shines within us. Meditation helps us connect with and nurture our own inner brilliance.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a bright star shining in the night sky, its light steady and radiant.",
@@ -1662,7 +1662,7 @@ export const meditationStories = [
   {
     id: 178,
     title: "The Quiet Sea",
-    sub_title: "Surrendering to the Flow of Life",
+    subtitle: "Surrendering to the Flow of Life",
     content: [
       "The sea symbolizes the flow of life, ever-changing and vast. Meditation helps us surrender to the currents of life, trusting in the journey.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself floating in a quiet, peaceful sea, the water gently rocking you.",
@@ -1672,7 +1672,7 @@ export const meditationStories = [
   {
     id: 179,
     title: "The Silent Temple",
-    sub_title: "Finding Solitude and Sacred Peace",
+    subtitle: "Finding Solitude and Sacred Peace",
     content: [
       "A silent temple represents peace, solitude, and sacred space. Meditation helps us find our own sacred space of peace and solitude.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself inside a quiet temple, the stillness and reverence surrounding you.",
@@ -1682,7 +1682,7 @@ export const meditationStories = [
   {
     id: 180,
     title: "The Rising Sun",
-    sub_title: "Embracing New Beginnings",
+    subtitle: "Embracing New Beginnings",
     content: [
       "The rising sun symbolizes hope, renewal, and new beginnings. Meditation helps us embrace fresh starts with open arms and optimism.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sun rising over the horizon, its light spreading warmth and new energy.",
@@ -1692,7 +1692,7 @@ export const meditationStories = [
   {
     id: 181,
     title: "The Endless Horizon",
-    sub_title: "Seeing Beyond Limits",
+    subtitle: "Seeing Beyond Limits",
     content: [
       "The horizon represents the endless potential and opportunities beyond us. Meditation helps us open our minds and see beyond limitations.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a vast horizon stretching out before you, limitless and full of potential.",
@@ -1702,7 +1702,7 @@ export const meditationStories = [
   {
     id: 182,
     title: "The Soothing Wind",
-    sub_title: "Releasing Tension and Finding Calm",
+    subtitle: "Releasing Tension and Finding Calm",
     content: [
       "The wind symbolizes release and freedom. Meditation helps us let go of tension and find calm amidst the chaos of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a gentle breeze blowing across your body, releasing any tension in its path.",
@@ -1712,7 +1712,7 @@ export const meditationStories = [
   {
     id: 183,
     title: "The Tranquil Pool",
-    sub_title: "Cultivating Stillness Within",
+    subtitle: "Cultivating Stillness Within",
     content: [
       "A tranquil pool reflects the world perfectly, symbolizing stillness and clarity. Meditation helps us cultivate inner stillness and clarity.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a calm pool, its surface perfectly still, reflecting the sky above.",
@@ -1722,7 +1722,7 @@ export const meditationStories = [
   {
     id: 184,
     title: "The Sacred Flame",
-    sub_title: "Transforming and Purifying Your Energy",
+    subtitle: "Transforming and Purifying Your Energy",
     content: [
       "A sacred flame represents transformation and purity. Meditation helps us ignite our inner flame and purify our thoughts and emotions.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a warm, sacred flame burning within your heart, glowing with purity and light.",
@@ -1732,7 +1732,7 @@ export const meditationStories = [
   {
     id: 185,
     title: "The Peaceful Meadow",
-    sub_title: "Reconnecting with the Earth’s Energy",
+    subtitle: "Reconnecting with the Earth’s Energy",
     content: [
       "A meadow represents harmony and connection with the earth. Meditation helps us reconnect with the earth’s nurturing energy.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself in a peaceful meadow, the earth beneath you solid and nurturing.",
@@ -1742,7 +1742,7 @@ export const meditationStories = [
   {
     id: 186,
     title: "The Serene River",
-    sub_title: "Letting Go and Going with the Flow",
+    subtitle: "Letting Go and Going with the Flow",
     content: [
       "The river flows effortlessly, symbolizing the importance of letting go and flowing with life. Meditation helps us release resistance and trust the flow.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself floating on a serene river, moving gently with the current.",
@@ -1752,7 +1752,7 @@ export const meditationStories = [
   {
     id: 187,
     title: "The Whispering Forest",
-    sub_title: "Listening to the Wisdom of Nature",
+    subtitle: "Listening to the Wisdom of Nature",
     content: [
       "The forest is full of wisdom, its trees and creatures offering guidance. Meditation helps us connect with the wisdom of nature.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself walking through a peaceful forest, the sounds of nature surrounding you.",
@@ -1762,7 +1762,7 @@ export const meditationStories = [
   {
     id: 188,
     title: "The Calm Horizon",
-    sub_title: "Finding Peace in the Unknown",
+    subtitle: "Finding Peace in the Unknown",
     content: [
       "The horizon symbolizes the unknown, a place of limitless potential. Meditation helps us find peace and stillness in the face of uncertainty.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the horizon stretching out before you, a peaceful, calm expanse.",
@@ -1773,7 +1773,7 @@ export const meditationStories = [
   {
     id: 189,
     title: "The Ancient Oak",
-    sub_title: "Finding Strength in Rootedness",
+    subtitle: "Finding Strength in Rootedness",
     content: [
       "An ancient oak tree represents resilience and stability. Meditation helps us feel grounded and rooted in our inner strength.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as an ancient oak, its roots deep within the earth, its branches stretching toward the sky.",
@@ -1783,7 +1783,7 @@ export const meditationStories = [
   {
     id: 190,
     title: "The Silent Meadow",
-    sub_title: "Embracing Peace and Solitude",
+    subtitle: "Embracing Peace and Solitude",
     content: [
       "A silent meadow represents calm, peace, and solitude. Meditation helps us embrace moments of stillness and connect with our inner peace.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself lying in a quiet meadow, the stillness surrounding you like a soft blanket.",
@@ -1793,7 +1793,7 @@ export const meditationStories = [
   {
     id: 191,
     title: "The Tranquil Lake",
-    sub_title: "Reflecting on the Beauty of the Present Moment",
+    subtitle: "Reflecting on the Beauty of the Present Moment",
     content: [
       "A tranquil lake mirrors the beauty of the world. Meditation helps us reflect on the present moment with clarity and appreciation.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a calm lake, its surface like glass, reflecting the beauty around it.",
@@ -1803,7 +1803,7 @@ export const meditationStories = [
   {
     id: 192,
     title: "The Serene Mountain",
-    sub_title: "Standing Tall Amidst Life's Storms",
+    subtitle: "Standing Tall Amidst Life's Storms",
     content: [
       "A serene mountain stands firm amidst the storm, symbolizing inner strength. Meditation helps us develop resilience and steadiness in the face of adversity.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself as a mountain, solid and unmovable, standing strong amidst the winds and storms.",
@@ -1813,7 +1813,7 @@ export const meditationStories = [
   {
     id: 193,
     title: "The Gentle Breeze",
-    sub_title: "Letting Go and Surrendering to Life",
+    subtitle: "Letting Go and Surrendering to Life",
     content: [
       "The gentle breeze carries away the weight of the world. Meditation helps us let go and surrender to life's natural flow.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself surrounded by a soft, warm breeze, gently carrying away your worries.",
@@ -1823,7 +1823,7 @@ export const meditationStories = [
   {
     id: 194,
     title: "The Soft Rain",
-    sub_title: "Cleansing and Renewal",
+    subtitle: "Cleansing and Renewal",
     content: [
       "Soft rain cleanses the earth and renews life. Meditation helps us release old patterns and invite renewal into our lives.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a soft rain falling gently around you, washing away all that no longer serves you.",
@@ -1833,7 +1833,7 @@ export const meditationStories = [
   {
     id: 195,
     title: "The Flowing River",
-    sub_title: "Embracing Change and Letting Go",
+    subtitle: "Embracing Change and Letting Go",
     content: [
       "A flowing river represents the constant movement of life. Meditation helps us embrace change and move with the flow of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture a river flowing peacefully, its current moving effortlessly toward the sea.",
@@ -1843,7 +1843,7 @@ export const meditationStories = [
   {
     id: 196,
     title: "The Golden Sunrise",
-    sub_title: "Awakening to New Possibilities",
+    subtitle: "Awakening to New Possibilities",
     content: [
       "The golden sunrise represents hope and new beginnings. Meditation helps us awaken to new opportunities and possibilities.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a beautiful golden sunrise, its light casting warmth and hope across the horizon.",
@@ -1853,7 +1853,7 @@ export const meditationStories = [
   {
     id: 197,
     title: "The Sacred Spiral",
-    sub_title: "Connecting with Your Inner Essence",
+    subtitle: "Connecting with Your Inner Essence",
     content: [
       "A sacred spiral symbolizes growth and the unfolding of inner wisdom. Meditation helps us reconnect with our essence and evolve spiritually.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a sacred spiral, gently unfolding and guiding you inward.",
@@ -1863,7 +1863,7 @@ export const meditationStories = [
   {
     id: 198,
     title: "The Quiet Stream",
-    sub_title: "Finding Calm in the Midst of Chaos",
+    subtitle: "Finding Calm in the Midst of Chaos",
     content: [
       "A quiet stream represents tranquility and inner peace. Meditation helps us find calm amidst the chaos of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a peaceful stream flowing gently through a forest, its waters clear and serene.",
@@ -1873,7 +1873,7 @@ export const meditationStories = [
   {
     id: 199,
     title: "The Peaceful Heart",
-    sub_title: "Embracing Love and Compassion",
+    subtitle: "Embracing Love and Compassion",
     content: [
       "A peaceful heart represents love and compassion. Meditation helps us cultivate kindness and understanding toward ourselves and others.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a warm, loving light glowing from your heart, filling you with peace and compassion.",
@@ -1883,7 +1883,7 @@ export const meditationStories = [
   {
     id: 200,
     title: "The Silent Desert",
-    sub_title: "Finding Clarity in Solitude",
+    subtitle: "Finding Clarity in Solitude",
     content: [
       "The silent desert represents solitude and stillness. Meditation helps us find clarity and insight in moments of quiet reflection.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself standing in the vast silence of the desert, the stillness surrounding you.",
@@ -1893,7 +1893,7 @@ export const meditationStories = [
   {
     id: 201,
     title: "The Flow of Energy",
-    sub_title: "Aligning with the Universe",
+    subtitle: "Aligning with the Universe",
     content: [
       "The flow of energy represents the interconnectedness of all things. Meditation helps us align with the universal energy and feel at peace with the world.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a flow of energy connecting you to the universe, vibrating with life and love.",
@@ -1903,7 +1903,7 @@ export const meditationStories = [
   {
     id: 202,
     title: "The Everchanging Sky",
-    sub_title: "Embracing Impermanence",
+    subtitle: "Embracing Impermanence",
     content: [
       "The sky represents the everchanging nature of life. Meditation helps us embrace impermanence and live in harmony with change.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sky above you, shifting from day to night, clouds passing by.",
@@ -1913,7 +1913,7 @@ export const meditationStories = [
   {
     id: 203,
     title: "The Morning Dew",
-    sub_title: "Embodying Fresh Beginnings",
+    subtitle: "Embodying Fresh Beginnings",
     content: [
       "The morning dew represents freshness and new beginnings. Meditation helps us embrace the new day with a sense of renewal.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself in a meadow at dawn, morning dew glistening on the grass.",
@@ -1923,7 +1923,7 @@ export const meditationStories = [
   {
     id: 204,
     title: "The Calm Reflection",
-    sub_title: "Cultivating Inner Peace",
+    subtitle: "Cultivating Inner Peace",
     content: [
       "Reflection symbolizes peace and understanding. Meditation helps us cultivate inner peace by looking within and embracing our true nature.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture a clear lake reflecting the sky, its surface smooth and undisturbed.",
@@ -1933,7 +1933,7 @@ export const meditationStories = [
   {
     id: 205,
     title: "The Quiet Horizon",
-    sub_title: "Finding Peace in the Unknown",
+    subtitle: "Finding Peace in the Unknown",
     content: [
       "The horizon represents the future, unknown and full of possibilities. Meditation helps us find peace and acceptance as we face uncertainty.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the horizon before you, stretching endlessly, full of potential.",
@@ -1944,7 +1944,7 @@ export const meditationStories = [
   {
     id: 206,
     title: "The Gentle River",
-    sub_title: "Surrendering to the Flow of Life",
+    subtitle: "Surrendering to the Flow of Life",
     content: [
       "A gentle river symbolizes the constant flow of life. Meditation helps us let go and flow with life's natural rhythms.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture a peaceful river flowing slowly through the landscape, carrying with it the weight of your worries.",
@@ -1954,7 +1954,7 @@ export const meditationStories = [
   {
     id: 207,
     title: "The Radiant Moon",
-    sub_title: "Embracing Quiet Beauty",
+    subtitle: "Embracing Quiet Beauty",
     content: [
       "The moon represents quiet beauty and stillness. Meditation helps us connect with our own inner light and radiance.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a glowing moon illuminating the night sky, casting a soft, peaceful light.",
@@ -1964,7 +1964,7 @@ export const meditationStories = [
   {
     id: 208,
     title: "The Sacred Garden",
-    sub_title: "Nurturing Your Inner Peace",
+    subtitle: "Nurturing Your Inner Peace",
     content: [
       "A sacred garden represents growth, beauty, and tranquility. Meditation helps us nurture our inner peace like a flourishing garden.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself walking through a lush garden, every plant and flower contributing to your peace.",
@@ -1974,7 +1974,7 @@ export const meditationStories = [
   {
     id: 209,
     title: "The Clear Sky",
-    sub_title: "Cultivating Mental Clarity",
+    subtitle: "Cultivating Mental Clarity",
     content: [
       "The clear sky symbolizes clarity of mind and thought. Meditation helps us cultivate mental clarity and focus.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a wide, open sky, free of clouds, clear and expansive.",
@@ -1984,7 +1984,7 @@ export const meditationStories = [
   {
     id: 210,
     title: "The Still Pond",
-    sub_title: "Calming the Mind",
+    subtitle: "Calming the Mind",
     content: [
       "A still pond represents deep tranquility and peace. Meditation helps us calm our minds and find stillness within.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture a still pond, its surface smooth and undisturbed, reflecting the world around it.",
@@ -1994,7 +1994,7 @@ export const meditationStories = [
   {
     id: 211,
     title: "The Hidden Oasis",
-    sub_title: "Discovering Peace in Unexpected Places",
+    subtitle: "Discovering Peace in Unexpected Places",
     content: [
       "A hidden oasis represents unexpected peace and calm. Meditation helps us find tranquility even in the most unexpected places.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a serene oasis hidden in the desert, its waters clear and refreshing.",
@@ -2004,7 +2004,7 @@ export const meditationStories = [
   {
     id: 212,
     title: "The Gentle Touch",
-    sub_title: "Cultivating Compassion for Yourself",
+    subtitle: "Cultivating Compassion for Yourself",
     content: [
       "A gentle touch symbolizes love and compassion. Meditation helps us cultivate compassion for ourselves and others.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a loving, gentle touch on your shoulder, offering warmth and comfort.",
@@ -2014,7 +2014,7 @@ export const meditationStories = [
   {
     id: 213,
     title: "The Ancient Path",
-    sub_title: "Finding Wisdom in the Journey",
+    subtitle: "Finding Wisdom in the Journey",
     content: [
       "An ancient path represents the journey of life and the wisdom we gain along the way. Meditation helps us find wisdom in every moment of our journey.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself walking along an ancient path, the steps lined with wisdom and guidance.",
@@ -2024,7 +2024,7 @@ export const meditationStories = [
   {
     id: 214,
     title: "The Shining Star",
-    sub_title: "Embracing Your Inner Light",
+    subtitle: "Embracing Your Inner Light",
     content: [
       "A shining star represents inner light and guidance. Meditation helps us reconnect with our inner light and find clarity.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a brilliant star shining brightly in the night sky, its light guiding you.",
@@ -2034,7 +2034,7 @@ export const meditationStories = [
   {
     id: 215,
     title: "The Quiet Shore",
-    sub_title: "Finding Stillness Within",
+    subtitle: "Finding Stillness Within",
     content: [
       "A quiet shore represents peace and stillness. Meditation helps us find calm and tranquility within ourselves.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself sitting on a quiet shore, the waves gently lapping at the sand.",
@@ -2044,7 +2044,7 @@ export const meditationStories = [
   {
     id: 216,
     title: "The Dreamer's Sky",
-    sub_title: "Exploring the Depths of Your Imagination",
+    subtitle: "Exploring the Depths of Your Imagination",
     content: [
       "The dreamer's sky represents boundless imagination and creativity. Meditation helps us connect with our inner creativity and explore new possibilities.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sky above you, filled with endless possibilities, open and vast.",
@@ -2054,7 +2054,7 @@ export const meditationStories = [
   {
     id: 217,
     title: "The Gentle Rainfall",
-    sub_title: "Cleansing and Refreshing the Spirit",
+    subtitle: "Cleansing and Refreshing the Spirit",
     content: [
       "Gentle rainfall symbolizes cleansing and renewal. Meditation helps us release emotional clutter and refresh our spirit.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the gentle rainfall washing over you, cleansing your body and spirit.",
@@ -2064,7 +2064,7 @@ export const meditationStories = [
   {
     id: 218,
     title: "The Peaceful Harbor",
-    sub_title: "Seeking Refuge from the Storms of Life",
+    subtitle: "Seeking Refuge from the Storms of Life",
     content: [
       "A peaceful harbor represents safety and refuge. Meditation helps us find peace and shelter from life's challenges.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself in a peaceful harbor, surrounded by calm waters and gentle winds.",
@@ -2074,7 +2074,7 @@ export const meditationStories = [
   {
     id: 219,
     title: "The Flowing Fountain",
-    sub_title: "Renewing Your Energy and Vitality",
+    subtitle: "Renewing Your Energy and Vitality",
     content: [
       "A flowing fountain represents renewal and vitality. Meditation helps us reconnect with our energy and feel rejuvenated.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture a fountain flowing with clear, sparkling water, energizing and refreshing.",
@@ -2084,7 +2084,7 @@ export const meditationStories = [
   {
     id: 220,
     title: "The Twilight Hour",
-    sub_title: "Embracing Transitions and Change",
+    subtitle: "Embracing Transitions and Change",
     content: [
       "The twilight hour represents transitions and the beauty of change. Meditation helps us embrace the changes that come in life.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself in the twilight hour, the sky shifting from day to night, full of colors and light.",
@@ -2094,7 +2094,7 @@ export const meditationStories = [
   {
     id: 221,
     title: "The Sacred Circle",
-    sub_title: "Connecting with the Universe",
+    subtitle: "Connecting with the Universe",
     content: [
       "The sacred circle represents unity and connection. Meditation helps us feel connected to the universe and all living beings.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a sacred circle surrounding you, connecting you to the universe and all life.",
@@ -2104,7 +2104,7 @@ export const meditationStories = [
   {
     id: 222,
     title: "The Golden Path",
-    sub_title: "Walking Toward Your Highest Potential",
+    subtitle: "Walking Toward Your Highest Potential",
     content: [
       "The golden path represents a journey toward personal growth and fulfillment. Meditation helps us align with our highest potential.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself walking along a golden path, each step bringing you closer to your highest self.",
@@ -2115,7 +2115,7 @@ export const meditationStories = [
   {
     id: 223,
     title: "The Silent Mountain",
-    sub_title: "Finding Strength in Silence",
+    subtitle: "Finding Strength in Silence",
     content: [
       "A silent mountain represents inner strength and resilience. Meditation helps us connect with the silent power that resides within us.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a towering mountain, its peaks quiet and majestic, standing strong against the winds.",
@@ -2125,7 +2125,7 @@ export const meditationStories = [
   {
     id: 224,
     title: "The Morning Dew",
-    sub_title: "Rejuvenating Your Spirit",
+    subtitle: "Rejuvenating Your Spirit",
     content: [
       "Morning dew symbolizes freshness and renewal. Meditation helps us rejuvenate our spirit and embrace a new day with fresh energy.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture dew settling on leaves as the morning light begins to shine, refreshing the earth.",
@@ -2135,7 +2135,7 @@ export const meditationStories = [
   {
     id: 225,
     title: "The Soft Breeze",
-    sub_title: "Letting Go of Tension",
+    subtitle: "Letting Go of Tension",
     content: [
       "A soft breeze represents ease and relaxation. Meditation helps us release tension and find serenity in the gentle flow of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a soft breeze blowing gently across your skin, carrying away your stress.",
@@ -2145,7 +2145,7 @@ export const meditationStories = [
   {
     id: 226,
     title: "The Ancient Tree",
-    sub_title: "Rooted in Wisdom and Patience",
+    subtitle: "Rooted in Wisdom and Patience",
     content: [
       "An ancient tree symbolizes wisdom, patience, and growth. Meditation helps us tap into the deep wisdom that resides within us.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture a tall, ancient tree with deep roots, its branches reaching toward the sky.",
@@ -2155,7 +2155,7 @@ export const meditationStories = [
   {
     id: 227,
     title: "The Crystal Clear Lake",
-    sub_title: "Reflecting Inner Clarity",
+    subtitle: "Reflecting Inner Clarity",
     content: [
       "A crystal-clear lake represents clarity and calm. Meditation helps us find clarity of thought and stillness in our minds.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself sitting by a crystal-clear lake, its surface perfectly still and smooth.",
@@ -2165,7 +2165,7 @@ export const meditationStories = [
   {
     id: 228,
     title: "The Floating Leaf",
-    sub_title: "Releasing What No Longer Serves You",
+    subtitle: "Releasing What No Longer Serves You",
     content: [
       "A floating leaf symbolizes letting go and surrendering. Meditation helps us release what no longer serves us and move forward.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a leaf gently floating on a river, drifting away from you with ease.",
@@ -2175,7 +2175,7 @@ export const meditationStories = [
   {
     id: 229,
     title: "The Rising Sun",
-    sub_title: "Embracing New Beginnings",
+    subtitle: "Embracing New Beginnings",
     content: [
       "The rising sun symbolizes hope, new beginnings, and potential. Meditation helps us embrace the dawn of a new chapter in our lives.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture the sun rising slowly on the horizon, casting light over the world.",
@@ -2185,7 +2185,7 @@ export const meditationStories = [
   {
     id: 230,
     title: "The Quiet Meadow",
-    sub_title: "Finding Peace in Nature",
+    subtitle: "Finding Peace in Nature",
     content: [
       "A quiet meadow represents peace and harmony with nature. Meditation helps us connect with the natural world and find serenity.",
       "Sit comfortably, close your eyes, and take a deep breath. Picture yourself walking through a peaceful meadow, surrounded by soft grasses and flowers.",
@@ -2195,7 +2195,7 @@ export const meditationStories = [
   {
     id: 231,
     title: "The Full Moon",
-    sub_title: "Embracing Completion and Fulfillment",
+    subtitle: "Embracing Completion and Fulfillment",
     content: [
       "The full moon symbolizes completeness and fulfillment. Meditation helps us embrace our own sense of wholeness and achievement.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the full moon shining brightly in the sky, its light reflecting completion.",
@@ -2205,7 +2205,7 @@ export const meditationStories = [
   {
     id: 232,
     title: "The Gentle Stream",
-    sub_title: "Going with the Flow",
+    subtitle: "Going with the Flow",
     content: [
       "A gentle stream represents the ease of going with the flow of life. Meditation helps us release resistance and surrender to the present moment.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a stream flowing smoothly over rocks, its waters moving without force or struggle.",
@@ -2215,7 +2215,7 @@ export const meditationStories = [
   {
     id: 233,
     title: "The Still Horizon",
-    sub_title: "Finding Calm in the Distance",
+    subtitle: "Finding Calm in the Distance",
     content: [
       "A still horizon symbolizes peace and perspective. Meditation helps us find calmness by stepping back and seeing the bigger picture.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself looking toward a calm, distant horizon, where the sky meets the earth.",
@@ -2225,7 +2225,7 @@ export const meditationStories = [
   {
     id: 234,
     title: "The Sacred Fire",
-    sub_title: "Igniting Passion and Purpose",
+    subtitle: "Igniting Passion and Purpose",
     content: [
       "The sacred fire represents transformation, passion, and purpose. Meditation helps us ignite the fire within ourselves.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a bright, sacred fire burning before you, its flames full of energy and purpose.",
@@ -2235,7 +2235,7 @@ export const meditationStories = [
   {
     id: 235,
     title: "The Tranquil Sound",
-    sub_title: "Connecting with Inner Peace Through Sound",
+    subtitle: "Connecting with Inner Peace Through Sound",
     content: [
       "A tranquil sound symbolizes harmony and balance. Meditation helps us connect with our inner peace through sound.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the sound of a gentle bell ringing in the distance, its tone pure and calming.",
@@ -2245,7 +2245,7 @@ export const meditationStories = [
   {
     id: 236,
     title: "The Gentle Mountain Stream",
-    sub_title: "Nurturing Your Inner Peace",
+    subtitle: "Nurturing Your Inner Peace",
     content: [
       "A gentle mountain stream represents peace and serenity. Meditation helps us nurture our own inner peace and tranquility.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a mountain stream flowing softly over rocks, the sound soothing and peaceful.",
@@ -2255,7 +2255,7 @@ export const meditationStories = [
   {
     id: 237,
     title: "The Hidden Garden",
-    sub_title: "Discovering Peace Within Yourself",
+    subtitle: "Discovering Peace Within Yourself",
     content: [
       "A hidden garden represents personal discovery and inner peace. Meditation helps us find peace within ourselves, even in unexpected places.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a beautiful hidden garden, full of lush greenery and fragrant flowers.",
@@ -2265,7 +2265,7 @@ export const meditationStories = [
   {
     id: 238,
     title: "The Inner Sanctuary",
-    sub_title: "Creating a Safe Space for Your Mind",
+    subtitle: "Creating a Safe Space for Your Mind",
     content: [
       "The inner sanctuary symbolizes safety and protection. Meditation helps us create a mental space where we can feel safe and at peace.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a peaceful sanctuary inside your mind, a place of safety and calm.",
@@ -2275,7 +2275,7 @@ export const meditationStories = [
   {
     id: 239,
     title: "The Eternal Light",
-    sub_title: "Connecting with Divine Presence",
+    subtitle: "Connecting with Divine Presence",
     content: [
       "The eternal light represents divine guidance and presence. Meditation helps us connect with a higher consciousness and divine wisdom.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a bright, eternal light shining within you, guiding your path.",
@@ -2285,7 +2285,7 @@ export const meditationStories = [
   {
     id: 240,
     title: "The Soothing Rain",
-    sub_title: "Cleansing Your Mind and Body",
+    subtitle: "Cleansing Your Mind and Body",
     content: [
       "The soothing rain represents cleansing and renewal. Meditation helps us wash away mental clutter and emotional baggage.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a soft rain falling gently, washing over you, cleansing your mind and body.",
@@ -2296,7 +2296,7 @@ export const meditationStories = [
   {
     id: 241,
     title: "The Shimmering Ocean",
-    sub_title: "Embracing Boundless Potential",
+    subtitle: "Embracing Boundless Potential",
     content: [
       "The shimmering ocean represents vastness and infinite potential. Meditation helps us connect with our limitless capabilities.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize the ocean stretching out endlessly, its surface shimmering under the sunlight.",
@@ -2306,7 +2306,7 @@ export const meditationStories = [
   {
     id: 242,
     title: "The Candle Flame",
-    sub_title: "Focusing Your Inner Light",
+    subtitle: "Focusing Your Inner Light",
     content: [
       "A candle flame represents focus and inner light. Meditation helps us center our attention and find clarity.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a single candle flame flickering steadily in a calm room.",
@@ -2316,7 +2316,7 @@ export const meditationStories = [
   {
     id: 243,
     title: "The Endless Path",
-    sub_title: "Walking Toward Self-Discovery",
+    subtitle: "Walking Toward Self-Discovery",
     content: [
       "An endless path symbolizes the journey of self-discovery. Meditation helps us explore our inner selves and uncover our truths.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself walking on a quiet path that stretches endlessly before you.",
@@ -2326,7 +2326,7 @@ export const meditationStories = [
   {
     id: 244,
     title: "The Desert Oasis",
-    sub_title: "Finding Relief in Stillness",
+    subtitle: "Finding Relief in Stillness",
     content: [
       "A desert oasis represents a refuge from life’s challenges. Meditation helps us find inner relief and rejuvenation.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a lush oasis appearing amidst a vast, quiet desert.",
@@ -2336,7 +2336,7 @@ export const meditationStories = [
   {
     id: 245,
     title: "The Ancient Scroll",
-    sub_title: "Unlocking Inner Wisdom",
+    subtitle: "Unlocking Inner Wisdom",
     content: [
       "An ancient scroll represents hidden wisdom and insights. Meditation helps us access the knowledge within ourselves.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize an ancient scroll slowly unrolling, revealing its wisdom to you.",
@@ -2346,7 +2346,7 @@ export const meditationStories = [
   {
     id: 246,
     title: "The Blooming Lotus",
-    sub_title: "Awakening Your True Self",
+    subtitle: "Awakening Your True Self",
     content: [
       "A blooming lotus symbolizes awakening and purity. Meditation helps us shed layers to uncover our truest self.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a lotus flower slowly blooming, its petals opening one by one.",
@@ -2356,7 +2356,7 @@ export const meditationStories = [
   {
     id: 247,
     title: "The Serene Forest",
-    sub_title: "Connecting with Inner Harmony",
+    subtitle: "Connecting with Inner Harmony",
     content: [
       "A serene forest represents balance and harmony. Meditation helps us align with the rhythm of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize yourself walking through a quiet forest, the air cool and refreshing.",
@@ -2366,7 +2366,7 @@ export const meditationStories = [
   {
     id: 248,
     title: "The Rising Phoenix",
-    sub_title: "Transforming Through Resilience",
+    subtitle: "Transforming Through Resilience",
     content: [
       "A rising phoenix symbolizes rebirth and transformation. Meditation helps us overcome challenges and rise stronger.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a phoenix rising from ashes, its wings radiant and powerful.",
@@ -2376,7 +2376,7 @@ export const meditationStories = [
   {
     id: 249,
     title: "The Calm River",
-    sub_title: "Flowing with Grace",
+    subtitle: "Flowing with Grace",
     content: [
       "A calm river represents grace and flow. Meditation helps us move through life with ease and acceptance.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a river flowing smoothly, its waters clear and gentle.",
@@ -2386,7 +2386,7 @@ export const meditationStories = [
   {
     id: 250,
     title: "The Radiant Rainbow",
-    sub_title: "Finding Joy in Diversity",
+    subtitle: "Finding Joy in Diversity",
     content: [
       "A radiant rainbow symbolizes joy and diversity. Meditation helps us celebrate the colors and beauty of life.",
       "Sit comfortably, close your eyes, and take a deep breath. Visualize a bright rainbow stretching across the sky after a soft rain.",
@@ -6133,117 +6133,113 @@ export const meditationStories = [
   },
 
   {
-    stories: [
-      {
-        id: 590,
-        title: "The Gentle Breeze",
-        subtitle: "Embracing Life’s Flows",
-        content: [
-          "The gentle breeze whispered through the trees, carrying with it the scent of wildflowers. It moved softly, brushing the leaves and creating ripples in the air.",
-          "A woman sat in meditation, feeling the breeze brush her skin. She thought, 'I will be like the breeze, flowing through life with grace and ease, not forcing any moment but allowing it to come naturally.'",
-          "With each inhale, she imagined herself becoming lighter, like the breeze, and with each exhale, she let go of all the stress that had accumulated in her body and mind.",
-          "The breeze became her symbol for letting go, reminding her that peace comes when we allow ourselves to flow with life, unburdened and unhurried.",
-        ],
-      },
-      {
-        id: 591,
-        title: "The Mountain Path",
-        subtitle: "Strength in Stillness",
-        content: [
-          "The mountain path wound up the steep incline, rocky and rugged, but it was the only way to reach the peak. The higher one climbed, the more challenging it became, but the reward was worth it.",
-          "A man sat quietly in meditation, his thoughts following the path in his mind. He thought, 'I will walk this path with patience, knowing that strength comes in moments of stillness. Every step brings me closer to inner peace.'",
-          "He visualized himself walking the path with each breath, each step being an opportunity to practice patience, focus, and perseverance. Despite the difficulty, he felt a deep sense of tranquility in the process.",
-          "The mountain path became his symbol for perseverance, reminding him that peace is found when we take one step at a time, steadily moving forward despite challenges.",
-        ],
-      },
-      {
-        id: 592,
-        title: "The Soft Rain",
-        subtitle: "Cleansing the Mind",
-        content: [
-          "The rain fell softly from the sky, each droplet hitting the earth gently, soaking the ground and refreshing the air. The rhythm of the rain brought a sense of calm to the environment.",
-          "A woman closed her eyes and began to meditate. She thought, 'I will let go of all my worries, like the rain washing away the dust of the world. Every drop that falls is a moment of release and renewal.'",
-          "With each breath, she felt herself letting go of stress, just like the rain that cleanses and nourishes the earth. She welcomed the peacefulness that came with surrendering to the present moment.",
-          "The rain became her symbol for renewal, teaching her that peace comes when we let go of old burdens, allowing ourselves to be cleansed and ready for new beginnings.",
-        ],
-      },
-      {
-        id: 593,
-        title: "The Quiet Meadow",
-        subtitle: "Finding Peace in Silence",
-        content: [
-          "The meadow stretched out before her, a peaceful expanse of grass and flowers, quiet and serene. The only sounds were the gentle breeze and the distant calls of birds in the trees.",
-          "A man meditated in the center of the meadow, thinking, 'I will find peace in silence, like this quiet meadow untouched by noise. In the stillness, I can hear the whispers of my soul.'",
-          "He let go of the distractions in his mind, focusing only on the present moment. The silence around him was not empty but filled with the peaceful rhythm of nature's heartbeats.",
-          "The meadow became his symbol for peace, reminding him that true tranquility is found in quiet moments of reflection, where the noise of the world fades away.",
-        ],
-      },
-      {
-        id: 594,
-        title: "The Rising Sun",
-        subtitle: "A New Beginning",
-        content: [
-          "The sun slowly rose above the horizon, casting its golden light across the land. The world came alive in the soft glow of the early morning, as if the earth itself was taking a deep breath.",
-          "A woman meditated as she watched the sun's rays spread over the landscape. She thought, 'I will embrace each new day as a fresh start, like the rising sun that promises new possibilities. Every morning brings the chance for a new beginning.'",
-          "As she inhaled, she felt the warmth of the sun filling her body with energy and optimism. With each exhale, she let go of any lingering doubts from the past, ready to embrace the potential of the present moment.",
-          "The sun became her symbol for hope, teaching her that peace comes when we face each day with optimism, allowing ourselves to begin anew without the weight of yesterday.",
-        ],
-      },
-      {
-        id: 595,
-        title: "The Flowing River",
-        subtitle: "Letting Go of Control",
-        content: [
-          "The river flowed steadily, its waters gliding over rocks and around bends without resistance. The flow was natural, effortless, moving forward toward its unknown destination.",
-          "A man meditated beside the river, watching the water pass by. He thought, 'I will let go of my need to control, like the river that flows naturally toward its destination. I trust the process of life.'",
-          "As he focused on the river's flow, he felt his own tensions melt away. The more he watched the river, the more he realized that true peace comes when we stop resisting and allow things to unfold naturally.",
-          "The river became his symbol for trust, reminding him that peace is found when we let go and trust in the flow of life, allowing it to carry us forward without worry or fear.",
-        ],
-      },
-      {
-        id: 596,
-        title: "The Snowy Peak",
-        subtitle: "Embracing Quiet Strength",
-        content: [
-          "The snow-covered mountain peak stood tall against the clear blue sky, a silent sentinel watching over the land. It remained unmoving, a quiet reminder of the strength that comes from stillness.",
-          "A woman meditated at the base of the mountain, looking up at the peak. She thought, 'I will be like the mountain, finding strength in my stillness. Even in the face of challenges, I will remain firm and calm.'",
-          "She imagined herself becoming as strong and unyielding as the mountain, unwavering in her inner peace. In this stillness, she found a deep power that did not need to assert itself to be felt.",
-          "The peak became her symbol for inner strength, teaching her that peace is found when we stand firm in our quiet power, remaining calm and unshaken by the turbulence around us.",
-        ],
-      },
-      {
-        id: 597,
-        title: "The Shining Star",
-        subtitle: "Light in Darkness",
-        content: [
-          "The star shone brightly in the dark sky, its light cutting through the night, guiding those lost in the darkness. It was a beacon, a sign that even in the darkest times, light could be found.",
-          "A man meditated under the night sky, gazing at the shining star. He thought, 'I will shine my light, even in the darkest times, like this star that guides the way. I will not hide my inner light from the world.'",
-          "He felt his own light within him, a warmth and radiance that could never be extinguished. The star's glow reminded him that even when everything seems bleak, there is always light within to guide the way.",
-          "The star became his symbol for hope, reminding him that peace comes when we embrace our inner light in the face of adversity, no matter how dark the world may seem.",
-        ],
-      },
-      {
-        id: 598,
-        title: "The Peaceful Ocean",
-        subtitle: "Embracing Life’s Rhythms",
-        content: [
-          "The ocean waves rolled gently onto the shore, moving in a rhythmic pattern, their ebb and flow a dance as old as time. The sound of the waves brought a sense of peace and calm to the heart.",
-          "A woman sat by the shore, meditating to the rhythm of the ocean. She thought, 'I will embrace the rhythm of life, like the ocean that moves with the ebb and flow of the tides. I will find peace in the natural rhythm of all things.'",
-          "With each breath, she synchronized herself with the ocean, letting go of the chaos in her mind and accepting the natural flow of her life. She realized that life, like the ocean, has its ups and downs, but it always moves forward.",
-          "The ocean became her symbol for acceptance, teaching her that peace is found when we align with the natural rhythms of life, accepting its flow without resistance.",
-        ],
-      },
-      {
-        id: 599,
-        title: "The Silent Forest",
-        subtitle: "Listening to the Heartbeat of Nature",
-        content: [
-          "The forest stood still, its trees towering above, their leaves swaying gently in the breeze. The forest was alive with the hum of nature, but it was a deep and quiet hum, a heartbeat that echoed softly through the air.",
-          "A man meditated in the heart of the forest, surrounded by the sounds of nature. He thought, 'I will listen to the silence, for in it, the heartbeat of nature can be heard. In this silence, I will find my own peace.'",
-          "As he sat in stillness, he tuned in to the subtle sounds of the forest—the rustling leaves, the distant chirping of birds, the whisper of the wind. These sounds were like a gentle reminder to stay present and aware.",
-          "The forest became his symbol for mindfulness, teaching him that peace is found when we stop and listen deeply, tuning in to the quiet rhythm of life around us.",
-        ],
-      },
+    id: 590,
+    title: "The Gentle Breeze",
+    subtitle: "Embracing Life’s Flows",
+    content: [
+      "The gentle breeze whispered through the trees, carrying with it the scent of wildflowers. It moved softly, brushing the leaves and creating ripples in the air.",
+      "A woman sat in meditation, feeling the breeze brush her skin. She thought, 'I will be like the breeze, flowing through life with grace and ease, not forcing any moment but allowing it to come naturally.'",
+      "With each inhale, she imagined herself becoming lighter, like the breeze, and with each exhale, she let go of all the stress that had accumulated in her body and mind.",
+      "The breeze became her symbol for letting go, reminding her that peace comes when we allow ourselves to flow with life, unburdened and unhurried.",
+    ],
+  },
+  {
+    id: 591,
+    title: "The Mountain Path",
+    subtitle: "Strength in Stillness",
+    content: [
+      "The mountain path wound up the steep incline, rocky and rugged, but it was the only way to reach the peak. The higher one climbed, the more challenging it became, but the reward was worth it.",
+      "A man sat quietly in meditation, his thoughts following the path in his mind. He thought, 'I will walk this path with patience, knowing that strength comes in moments of stillness. Every step brings me closer to inner peace.'",
+      "He visualized himself walking the path with each breath, each step being an opportunity to practice patience, focus, and perseverance. Despite the difficulty, he felt a deep sense of tranquility in the process.",
+      "The mountain path became his symbol for perseverance, reminding him that peace is found when we take one step at a time, steadily moving forward despite challenges.",
+    ],
+  },
+  {
+    id: 592,
+    title: "The Soft Rain",
+    subtitle: "Cleansing the Mind",
+    content: [
+      "The rain fell softly from the sky, each droplet hitting the earth gently, soaking the ground and refreshing the air. The rhythm of the rain brought a sense of calm to the environment.",
+      "A woman closed her eyes and began to meditate. She thought, 'I will let go of all my worries, like the rain washing away the dust of the world. Every drop that falls is a moment of release and renewal.'",
+      "With each breath, she felt herself letting go of stress, just like the rain that cleanses and nourishes the earth. She welcomed the peacefulness that came with surrendering to the present moment.",
+      "The rain became her symbol for renewal, teaching her that peace comes when we let go of old burdens, allowing ourselves to be cleansed and ready for new beginnings.",
+    ],
+  },
+  {
+    id: 593,
+    title: "The Quiet Meadow",
+    subtitle: "Finding Peace in Silence",
+    content: [
+      "The meadow stretched out before her, a peaceful expanse of grass and flowers, quiet and serene. The only sounds were the gentle breeze and the distant calls of birds in the trees.",
+      "A man meditated in the center of the meadow, thinking, 'I will find peace in silence, like this quiet meadow untouched by noise. In the stillness, I can hear the whispers of my soul.'",
+      "He let go of the distractions in his mind, focusing only on the present moment. The silence around him was not empty but filled with the peaceful rhythm of nature's heartbeats.",
+      "The meadow became his symbol for peace, reminding him that true tranquility is found in quiet moments of reflection, where the noise of the world fades away.",
+    ],
+  },
+  {
+    id: 594,
+    title: "The Rising Sun",
+    subtitle: "A New Beginning",
+    content: [
+      "The sun slowly rose above the horizon, casting its golden light across the land. The world came alive in the soft glow of the early morning, as if the earth itself was taking a deep breath.",
+      "A woman meditated as she watched the sun's rays spread over the landscape. She thought, 'I will embrace each new day as a fresh start, like the rising sun that promises new possibilities. Every morning brings the chance for a new beginning.'",
+      "As she inhaled, she felt the warmth of the sun filling her body with energy and optimism. With each exhale, she let go of any lingering doubts from the past, ready to embrace the potential of the present moment.",
+      "The sun became her symbol for hope, teaching her that peace comes when we face each day with optimism, allowing ourselves to begin anew without the weight of yesterday.",
+    ],
+  },
+  {
+    id: 595,
+    title: "The Flowing River",
+    subtitle: "Letting Go of Control",
+    content: [
+      "The river flowed steadily, its waters gliding over rocks and around bends without resistance. The flow was natural, effortless, moving forward toward its unknown destination.",
+      "A man meditated beside the river, watching the water pass by. He thought, 'I will let go of my need to control, like the river that flows naturally toward its destination. I trust the process of life.'",
+      "As he focused on the river's flow, he felt his own tensions melt away. The more he watched the river, the more he realized that true peace comes when we stop resisting and allow things to unfold naturally.",
+      "The river became his symbol for trust, reminding him that peace is found when we let go and trust in the flow of life, allowing it to carry us forward without worry or fear.",
+    ],
+  },
+  {
+    id: 596,
+    title: "The Snowy Peak",
+    subtitle: "Embracing Quiet Strength",
+    content: [
+      "The snow-covered mountain peak stood tall against the clear blue sky, a silent sentinel watching over the land. It remained unmoving, a quiet reminder of the strength that comes from stillness.",
+      "A woman meditated at the base of the mountain, looking up at the peak. She thought, 'I will be like the mountain, finding strength in my stillness. Even in the face of challenges, I will remain firm and calm.'",
+      "She imagined herself becoming as strong and unyielding as the mountain, unwavering in her inner peace. In this stillness, she found a deep power that did not need to assert itself to be felt.",
+      "The peak became her symbol for inner strength, teaching her that peace is found when we stand firm in our quiet power, remaining calm and unshaken by the turbulence around us.",
+    ],
+  },
+  {
+    id: 597,
+    title: "The Shining Star",
+    subtitle: "Light in Darkness",
+    content: [
+      "The star shone brightly in the dark sky, its light cutting through the night, guiding those lost in the darkness. It was a beacon, a sign that even in the darkest times, light could be found.",
+      "A man meditated under the night sky, gazing at the shining star. He thought, 'I will shine my light, even in the darkest times, like this star that guides the way. I will not hide my inner light from the world.'",
+      "He felt his own light within him, a warmth and radiance that could never be extinguished. The star's glow reminded him that even when everything seems bleak, there is always light within to guide the way.",
+      "The star became his symbol for hope, reminding him that peace comes when we embrace our inner light in the face of adversity, no matter how dark the world may seem.",
+    ],
+  },
+  {
+    id: 598,
+    title: "The Peaceful Ocean",
+    subtitle: "Embracing Life’s Rhythms",
+    content: [
+      "The ocean waves rolled gently onto the shore, moving in a rhythmic pattern, their ebb and flow a dance as old as time. The sound of the waves brought a sense of peace and calm to the heart.",
+      "A woman sat by the shore, meditating to the rhythm of the ocean. She thought, 'I will embrace the rhythm of life, like the ocean that moves with the ebb and flow of the tides. I will find peace in the natural rhythm of all things.'",
+      "With each breath, she synchronized herself with the ocean, letting go of the chaos in her mind and accepting the natural flow of her life. She realized that life, like the ocean, has its ups and downs, but it always moves forward.",
+      "The ocean became her symbol for acceptance, teaching her that peace is found when we align with the natural rhythms of life, accepting its flow without resistance.",
+    ],
+  },
+  {
+    id: 599,
+    title: "The Silent Forest",
+    subtitle: "Listening to the Heartbeat of Nature",
+    content: [
+      "The forest stood still, its trees towering above, their leaves swaying gently in the breeze. The forest was alive with the hum of nature, but it was a deep and quiet hum, a heartbeat that echoed softly through the air.",
+      "A man meditated in the heart of the forest, surrounded by the sounds of nature. He thought, 'I will listen to the silence, for in it, the heartbeat of nature can be heard. In this silence, I will find my own peace.'",
+      "As he sat in stillness, he tuned in to the subtle sounds of the forest—the rustling leaves, the distant chirping of birds, the whisper of the wind. These sounds were like a gentle reminder to stay present and aware.",
+      "The forest became his symbol for mindfulness, teaching him that peace is found when we stop and listen deeply, tuning in to the quiet rhythm of life around us.",
     ],
   },
 

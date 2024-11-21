@@ -1,0 +1,1 @@
+ALTER TABLE "tbl_users" ADD COLUMN "gender" "tbl_gender";

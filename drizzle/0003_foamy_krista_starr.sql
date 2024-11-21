@@ -1,41 +1,3 @@
-DO $$ BEGIN
- CREATE TYPE "public"."tbl_category" AS ENUM('E.G', 'Bug', 'Feature');
-EXCEPTION
- WHEN duplicate_object THEN null;
-END $$;
---> statement-breakpoint
-DO $$ BEGIN
- CREATE TYPE "public"."tbl_gender" AS ENUM('Male', 'Female', 'Other');
-EXCEPTION
- WHEN duplicate_object THEN null;
-END $$;
---> statement-breakpoint
-DO $$ BEGIN
- CREATE TYPE "public"."tbl_notification_type" AS ENUM('Meditation', 'Quote', 'Story');
-EXCEPTION
- WHEN duplicate_object THEN null;
-END $$;
---> statement-breakpoint
-DO $$ BEGIN
- CREATE TYPE "public"."tbl_reminder_type" AS ENUM('Meditation', 'Quote', 'Story');
-EXCEPTION
- WHEN duplicate_object THEN null;
-END $$;
---> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "tbl_users" (
-	"id" text PRIMARY KEY NOT NULL,
-	"full_name" varchar(256) NOT NULL,
-	"email" text NOT NULL,
-	"mobile_number" text NOT NULL,
-	"profile_image" text,
-	"date_of_birth" timestamp,
-	"gender" "tbl_gender",
-	"created_at" timestamp DEFAULT now() NOT NULL,
-	"updated_at" timestamp DEFAULT current_timestamp,
-	CONSTRAINT "tbl_users_email_unique" UNIQUE("email"),
-	CONSTRAINT "tbl_users_mobile_number_unique" UNIQUE("mobile_number")
-);
---> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "tbl_user_preferences" (
 	"id" text PRIMARY KEY NOT NULL,
 	"user_id" varchar NOT NULL,
@@ -74,9 +36,9 @@ CREATE TABLE IF NOT EXISTS "tbl_favorite_quotes" (
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "tbl_stories" (
 	"id" text PRIMARY KEY NOT NULL,
-	"title" varchar(255) NOT NULL,
-	"content" text[] NOT NULL,
-	"sub_title" varchar(255) NOT NULL,
+	"title" varchar(255),
+	"content" text[],
+	"sub_title" varchar(255),
 	"thumbnail_image" varchar(255),
 	"created_at" timestamp DEFAULT now() NOT NULL
 );
@@ -92,7 +54,7 @@ CREATE TABLE IF NOT EXISTS "tbl_favorite_stories" (
 CREATE TABLE IF NOT EXISTS "tbl_feedbacks" (
 	"id" text PRIMARY KEY NOT NULL,
 	"user_id" text NOT NULL,
-	"category" "tbl_category",
+	"category" "tbl_category" NOT NULL,
 	"content" text NOT NULL,
 	"image" text,
 	"submitted_at" timestamp DEFAULT now() NOT NULL,

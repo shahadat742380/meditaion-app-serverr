@@ -21,7 +21,7 @@ export const feedbacks = pgTable("feedbacks", {
       onDelete: "cascade",
       onUpdate: "cascade",
     }),
-  category: categoryEnum("category"),
+  category: categoryEnum("category").notNull(),
   content: text("content").notNull(),
   image: text("image"),
   submitted_at: timestamp("submitted_at").defaultNow().notNull(),

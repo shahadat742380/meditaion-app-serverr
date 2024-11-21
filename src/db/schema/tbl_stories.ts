@@ -1,4 +1,4 @@
-import { relations, sql } from "drizzle-orm";
+import { relations } from "drizzle-orm";
 import { varchar, text, timestamp } from "drizzle-orm/pg-core";
 
 // ** import third party
@@ -14,10 +14,10 @@ export const stories = pgTable("stories", {
   id: text("id")
     .$defaultFn(() => uuidv4())
     .primaryKey(),
-  title: varchar("title", { length: 255 }),
-  content: text("content").array(),
-  sub_title: varchar("sub_title", { length: 255 }),
-  thumbnail_image: varchar("thumbnail_image", { length: 255 }),
+  title: varchar("title", { length: 255 }).notNull(),
+  content: text("content").array().notNull(),
+  sub_title: varchar("sub_title", { length: 255 }).notNull(),
+  thumbnail_image: text("thumbnail_image"),
   created_at: timestamp("created_at").defaultNow().notNull(),
 });
 

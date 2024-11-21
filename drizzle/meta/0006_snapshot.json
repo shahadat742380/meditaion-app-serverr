@@ -1,6 +1,6 @@
 {
-  "id": "b5b7d7ec-124c-4347-a2c7-11ffe33a0c7c",
-  "prevId": "6978851e-18a1-4967-9bd0-c3fe9231f537",
+  "id": "b33c35c9-fa97-4095-ae8f-8a34ed0afae4",
+  "prevId": "d305f6c5-ec69-4f69-a2e9-c6dce65a3909",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -79,8 +79,8 @@
         }
       }
     },
-    "public.tbl_user_preferences": {
-      "name": "tbl_user_preferences",
+    "public.tbl_user_meditation_preferences": {
+      "name": "tbl_user_meditation_preferences",
       "schema": "",
       "columns": {
         "id": {
@@ -95,32 +95,37 @@
           "primaryKey": false,
           "notNull": true
         },
-        "reminder_time": {
-          "name": "reminder_time",
-          "type": "timestamp",
+        "experience_level": {
+          "name": "experience_level",
+          "type": "tbl_experience_type",
+          "typeSchema": "public",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
-        "meditation_reminders": {
-          "name": "meditation_reminders",
-          "type": "boolean",
+        "primary_goal": {
+          "name": "primary_goal",
+          "type": "text",
           "primaryKey": false,
-          "notNull": false,
-          "default": false
+          "notNull": true
         },
-        "quote_reminders": {
-          "name": "quote_reminders",
-          "type": "boolean",
+        "meditation_duration": {
+          "name": "meditation_duration",
+          "type": "text",
           "primaryKey": false,
-          "notNull": false,
-          "default": false
+          "notNull": true
         },
-        "story_reminders": {
-          "name": "story_reminders",
-          "type": "boolean",
+        "meditation_duration_mins": {
+          "name": "meditation_duration_mins",
+          "type": "integer",
           "primaryKey": false,
-          "notNull": false,
-          "default": false
+          "notNull": true
+        },
+        "preferred_time_of_day": {
+          "name": "preferred_time_of_day",
+          "type": "tbl_preferred_day_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
         },
         "created_at": {
           "name": "created_at",
@@ -139,9 +144,9 @@
       },
       "indexes": {},
       "foreignKeys": {
-        "tbl_user_preferences_user_id_tbl_users_id_fk": {
-          "name": "tbl_user_preferences_user_id_tbl_users_id_fk",
-          "tableFrom": "tbl_user_preferences",
+        "tbl_user_meditation_preferences_user_id_tbl_users_id_fk": {
+          "name": "tbl_user_meditation_preferences_user_id_tbl_users_id_fk",
+          "tableFrom": "tbl_user_meditation_preferences",
           "tableTo": "tbl_users",
           "columnsFrom": [
             "user_id"
@@ -281,13 +286,6 @@
           "primaryKey": false,
           "notNull": true
         },
-        "added_at": {
-          "name": "added_at",
-          "type": "timestamp",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "now()"
-        },
         "created_at": {
           "name": "created_at",
           "type": "timestamp",
@@ -342,23 +340,23 @@
           "name": "title",
           "type": "varchar(255)",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "content": {
           "name": "content",
           "type": "text[]",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "sub_title": {
           "name": "sub_title",
           "type": "varchar(255)",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "thumbnail_image": {
           "name": "thumbnail_image",
-          "type": "varchar(255)",
+          "type": "text",
           "primaryKey": false,
           "notNull": false
         },
@@ -396,13 +394,6 @@
           "type": "text",
           "primaryKey": false,
           "notNull": true
-        },
-        "added_at": {
-          "name": "added_at",
-          "type": "timestamp",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "now()"
         },
         "created_at": {
           "name": "created_at",
@@ -513,137 +504,6 @@
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "public.tbl_reminders": {
-      "name": "tbl_reminders",
-      "schema": "",
-      "columns": {
-        "id": {
-          "name": "id",
-          "type": "text",
-          "primaryKey": true,
-          "notNull": true
-        },
-        "user_id": {
-          "name": "user_id",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "type": {
-          "name": "type",
-          "type": "tbl_reminder_type",
-          "typeSchema": "public",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "time": {
-          "name": "time",
-          "type": "time",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "is_active": {
-          "name": "is_active",
-          "type": "boolean",
-          "primaryKey": false,
-          "notNull": true,
-          "default": false
-        },
-        "created_at": {
-          "name": "created_at",
-          "type": "timestamp",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "now()"
-        }
-      },
-      "indexes": {},
-      "foreignKeys": {
-        "tbl_reminders_user_id_tbl_users_id_fk": {
-          "name": "tbl_reminders_user_id_tbl_users_id_fk",
-          "tableFrom": "tbl_reminders",
-          "tableTo": "tbl_users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
-          "onDelete": "cascade",
-          "onUpdate": "cascade"
-        }
-      },
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
-    },
-    "public.tbl_analytics": {
-      "name": "tbl_analytics",
-      "schema": "",
-      "columns": {
-        "id": {
-          "name": "id",
-          "type": "text",
-          "primaryKey": true,
-          "notNull": true
-        },
-        "user_id": {
-          "name": "user_id",
-          "type": "varchar",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "streak_count": {
-          "name": "streak_count",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "last_active_date": {
-          "name": "last_active_date",
-          "type": "date",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "weekly_progress": {
-          "name": "weekly_progress",
-          "type": "json",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "created_at": {
-          "name": "created_at",
-          "type": "timestamp",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "now()"
-        },
-        "updated_at": {
-          "name": "updated_at",
-          "type": "timestamp",
-          "primaryKey": false,
-          "notNull": false,
-          "default": "current_timestamp"
-        }
-      },
-      "indexes": {},
-      "foreignKeys": {
-        "tbl_analytics_user_id_tbl_users_id_fk": {
-          "name": "tbl_analytics_user_id_tbl_users_id_fk",
-          "tableFrom": "tbl_analytics",
-          "tableTo": "tbl_users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
-          "onDelete": "cascade",
-          "onUpdate": "cascade"
-        }
-      },
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
-    },
     "public.tbl_user_notifications": {
       "name": "tbl_user_notifications",
       "schema": "",
@@ -713,43 +573,285 @@
       },
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
+    },
+    "public.tbl_badges": {
+      "name": "tbl_badges",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(256)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "days": {
+          "name": "days",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "tbl_badge_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "icon_url": {
+          "name": "icon_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.tbl_achievement": {
+      "name": "tbl_achievement",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "user_id": {
+          "name": "user_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "badge_id": {
+          "name": "badge_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "tbl_achievement_user_id_tbl_users_id_fk": {
+          "name": "tbl_achievement_user_id_tbl_users_id_fk",
+          "tableFrom": "tbl_achievement",
+          "tableTo": "tbl_users",
+          "columnsFrom": [
+            "user_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "cascade"
+        },
+        "tbl_achievement_badge_id_tbl_badges_id_fk": {
+          "name": "tbl_achievement_badge_id_tbl_badges_id_fk",
+          "tableFrom": "tbl_achievement",
+          "tableTo": "tbl_badges",
+          "columnsFrom": [
+            "badge_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "cascade"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.tbl_meditation_audios": {
+      "name": "tbl_meditation_audios",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "file_url": {
+          "name": "file_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cover_image_url": {
+          "name": "cover_image_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "duration": {
+          "name": "duration",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "current_timestamp"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.tbl_interval_ringtones": {
+      "name": "tbl_interval_ringtones",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "file_url": {
+          "name": "file_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cover_image_url": {
+          "name": "cover_image_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "current_timestamp"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
     }
   },
   "enums": {
+    "public.tbl_badge_type": {
+      "name": "tbl_badge_type",
+      "schema": "public",
+      "values": [
+        "DAYS",
+        "MONTHS",
+        "YEARS"
+      ]
+    },
     "public.tbl_category": {
       "name": "tbl_category",
       "schema": "public",
       "values": [
-        "Bug report",
-        "Change request",
-        "Feature request"
+        "BUG REPORT",
+        "CHANGE REQUEST",
+        "FEATURE REQUEST"
+      ]
+    },
+    "public.tbl_experience_type": {
+      "name": "tbl_experience_type",
+      "schema": "public",
+      "values": [
+        "BEGINNER",
+        "INTERMEDIATE",
+        "ADVANCED",
+        "PRO"
       ]
     },
     "public.tbl_gender": {
       "name": "tbl_gender",
       "schema": "public",
       "values": [
-        "Male",
-        "Female",
-        "Other"
+        "MALE",
+        "FEMALE",
+        "OTHER"
       ]
     },
     "public.tbl_notification_type": {
       "name": "tbl_notification_type",
       "schema": "public",
       "values": [
-        "Meditation",
-        "Quote",
-        "Story"
+        "MEDITATION",
+        "QUOTE",
+        "STORY"
+      ]
+    },
+    "public.tbl_preferred_day_type": {
+      "name": "tbl_preferred_day_type",
+      "schema": "public",
+      "values": [
+        "MORNING",
+        "AFTERNOON",
+        "EVENING",
+        "NO",
+        "PREFERENCE"
       ]
     },
     "public.tbl_reminder_type": {
       "name": "tbl_reminder_type",
       "schema": "public",
       "values": [
-        "Meditation",
-        "Quote",
-        "Story"
+        "MEDITATION",
+        "QUOTE",
+        "STORY"
       ]
     }
   },

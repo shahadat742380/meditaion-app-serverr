@@ -27,7 +27,6 @@ export const favorite_stories = pgTable("favorite_stories", {
       onDelete: "cascade",
       onUpdate: "cascade",
     }),
-  added_at: timestamp("added_at").defaultNow().notNull(),
   created_at: timestamp("created_at").defaultNow().notNull(),
 });
 

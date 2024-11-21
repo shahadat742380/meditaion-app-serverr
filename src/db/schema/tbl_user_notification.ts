@@ -1,5 +1,5 @@
 import { relations, sql } from "drizzle-orm";
-import { boolean, text, timestamp, varchar } from "drizzle-orm/pg-core";
+import { boolean, text, timestamp } from "drizzle-orm/pg-core";
 
 // ** import third party
 import { v4 as uuidv4 } from "uuid";

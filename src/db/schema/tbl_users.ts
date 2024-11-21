@@ -9,13 +9,11 @@ import { pgTable } from "@/db/utils";
 
 // ** import table
 import { genderEnum } from "./common";
-import { user_preferences } from "./tbl_user_preferences";
-import { analytics } from "./tbl_analytics";
+import { user_meditation_preferences } from "./tbl_user_meditation_preferences";
 import { user_notifications } from "./tbl_user_notification";
-import { reminders } from "./tbl_reminders";
 import { favorite_quotes } from "./tbl_favorite_quotes";
 import { favorite_stories } from "./tbl_favorite_stories";
-import { feedbacks } from "./tbl_feedback";
+import { feedbacks } from "./tbl_feedbacks";
 import { meditation_sessions } from "./tbl_meditation_sessions";
 
 export const users = pgTable("users", {
@@ -24,7 +22,7 @@ export const users = pgTable("users", {
     .primaryKey(),
   full_name: varchar("full_name", { length: 256 }).notNull(),
   email: text("email").unique().notNull(),
-  mobile_number: text("mobile_number").unique(),
+  mobile_number: text("mobile_number"),
   profile_image: text("profile_image"),
   date_of_birth: timestamp("date_of_birth"),
   gender: genderEnum("gender"),
@@ -40,10 +38,8 @@ export type NewUser = typeof users.$inferInsert;
 // ** __________ User Preferences RELATIONS __________ ** //
 
 export const users_relations = relations(users, ({ many }) => ({
-  user_preferences: many(user_preferences),
-  analytics: many(analytics),
+  user_preferences: many(user_meditation_preferences),
   user_notifications: many(user_notifications),
-  reminders: many(reminders),
   favorite_quotes: many(favorite_quotes),
   favorite_stories: many(favorite_stories),
   feedback: many(feedbacks),

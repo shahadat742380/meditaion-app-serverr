@@ -10,6 +10,7 @@ provider:
   timeout: 30 # repository wide Lambda timeout
   environment:
     NODE_ENV: production
+    # DATABASE_URL: postgres://01934470-90e4-798a-b7d5-87de675dad4b:867307cb-6664-4ce2-9410-a77d627d3ba4@us-west-2.db.thenile.dev:5432/meditation_app
     DATABASE_URL: postgresql://postgres:VFhrEpFlYQhIPbqiJRtwRLhtkzExtiCR@autorack.proxy.rlwy.net:38273/railway
 
 plugins:
