@@ -12,3 +12,4 @@ export * from "./tbl_badges";
 export * from "./tbl_achievement";
 export * from "./tbl_meditation_audios"
 export * from "./tbl_interval_ringtones"
+export * from "./auth-schema"
